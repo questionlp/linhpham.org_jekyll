@@ -1,0 +1,32 @@
+.bi-bluesky::before {
+  content: "";
+  background-color: currentColor;
+  -webkit-mask: url("../images/icons/bluesky.svg") no-repeat 50% 50%;
+  mask: url("../images/icons/bluesky.svg") no-repeat 50% 50%;
+  -webkit-mask-size: cover;
+  mask-size: cover;
+  height: 16px;
+  width: 16px;
+}
+
+.bi-flickr::before {
+  content: "";
+  background-color: currentColor;
+  -webkit-mask: url("../images/icons/flickr.svg") no-repeat 50% 50%;
+  mask: url("../images/icons/flickr.svg") no-repeat 50% 50%;
+  -webkit-mask-size: cover;
+  mask-size: cover;
+  height: 16px;
+  width: 16px;
+}
+
+.bi-pixelfed::before {
+  content: "";
+  background-color: currentColor;
+  -webkit-mask: url("../images/icons/pixelfed.svg") no-repeat 50% 50%;
+  mask: url("../images/icons/pixelfed.svg") no-repeat 50% 50%;
+  -webkit-mask-size: cover;
+  mask-size: cover;
+  height: 16px;
+  width: 16px;
+}

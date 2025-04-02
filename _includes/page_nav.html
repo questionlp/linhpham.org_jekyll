@@ -1,0 +1,77 @@
+<!-- Start Navigation -->
+<a class="visually-hidden-focusable" id="skip-nav" href="#page-content">Skip to main content</a>
+
+<!-- #region Header and Navigation -->
+<header>
+    <nav class="navbar fixed-top navbar-expand-lg border-bottom px-2" id="main-nav">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="bi bi-list"></i>
+            </button>
+
+            <h1 class="py-1 mb-1">
+                <a class="navbar-brand align-middle" href="/">
+                    <span class="terminal-user">www</span><span class="terminal-at">@</span><span class="terminal-host">linhpham.org:</span><span class="terminal-path">~</span> <span class="terminal-end">$</span></a>
+            </h1>
+
+            <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h2 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h2>
+                    <button class="btn-close btn-close-white" type="button" data-bs-dismiss="offcanvas"
+                        data-bs-target="#offcanvasNavbar" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-1">
+                        {%- for nav_link in site.nav_links -%}
+                        <li class="nav-item">
+                            <a class="nav-link p-2" href="{{ nav_link.url }}">{{ nav_link.name }}</a>
+                        </li>
+                        {%- endfor -%}
+                        <li class="nav-item d-block d-lg-none">
+                            <hr class="opacity-75">
+                        </li>
+                        
+                        <li class="nav-item d-none d-lg-block pe-2">
+                            <span class="d-none"></span>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <button class="btn btn-link nav-link dropdown-toggle d-flex align-items-center px-2" id="bd-theme"
+                                type="button" aria-expanded="false" data-bs-toggle="dropdown" data-bs-display="static"
+                                aria-label="Toggle Theme (Auto)">
+                                <i class="bi bi-circle-half pe-2"></i>
+                                <span class="d-lg-none" id="bd-theme-text">Toggle theme</span>
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-end" id="theme-dropdown" aria-labelledby="bd-theme-text">
+                                <li>
+                                    <button type="button" class="dropdown-item d-flex align-items-center"
+                                        data-bs-theme-value="light" aria-pressed="false">
+                                        <i class="bi bi-sun-fill pe-2"></i>
+                                        Light
+                                    </button>
+                                </li>
+                                <li>
+                                    <button type="button" class="dropdown-item d-flex align-items-center"
+                                        data-bs-theme-value="dark" aria-pressed="false">
+                                        <i class="bi bi-moon-stars-fill pe-2"></i>
+                                        Dark
+                                    </button>
+                                </li>
+                                <li>
+                                    <button type="button" class="dropdown-item d-flex align-items-center active"
+                                        data-bs-theme-value="auto" aria-pressed="true">
+                                        <i class="bi bi-circle-half pe-2"></i>
+                                        Auto
+                                    </button>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+<!-- End Navigation -->

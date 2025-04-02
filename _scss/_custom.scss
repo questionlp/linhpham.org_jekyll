@@ -1,0 +1,391 @@
+// IBM Design Colors
+@use "./colors-ibm" as ibm;
+
+:root {
+  --bs-bg-opacity: 1;
+  --bs-dark-bg-opacity: 1;
+
+  // Adapted from: https://matthewjamestaylor.com/responsive-font-size
+  --bs-body-font-size: clamp(14.5px, calc(14.5px + 0.325vw), 18px);
+}
+
+header {
+  color: ibm.$gray-10;
+
+  .navbar {
+    background-color: ibm.$black;
+    color: ibm.$gray-10;
+
+    h1 {
+      font-size: 1.8rem;
+    }
+
+    .navbar-brand {
+      color: ibm.$gray-10;
+      font-family: $font-family-monospace;
+
+      .terminal-user {
+        color: ibm.$blue-30;
+      }
+
+      .terminal-path {
+        color: ibm.$purple-30;
+      }
+
+      .terminal-at,
+      .terminal-host {
+        color: ibm.$green-30;
+      }
+
+      .terminal-end {
+        color: ibm.$red-30;
+      }
+    }
+
+    .navbar-brand,
+    .nav-link {
+      color: ibm.$gray-10;
+    }
+
+    .nav-item {
+      hr {
+        border: 1px solid ibm.$gray-50;
+        color: ibm.$gray-50;
+        opacity: 100;
+      }
+    }
+
+    .nav-link {
+      font-weight: 500;
+    }
+
+    .nav-link:hover {
+      background-color: ibm.$blue-70;
+      color: ibm.$white;
+    }
+
+    .offcanvas {
+      background-color: ibm.$gray-100;
+
+      .offcanvas-title {
+        color: ibm.$gray-10;
+        font-size: 1.5rem;
+        padding-top: 0.425rem;
+      }
+
+      .nav-link:hover {
+        background-color: ibm.$blue-70;
+      }
+
+      .dropdown-toggle {
+        color: ibm.$gray-10;
+      }
+    }
+
+    .navbar-toggler {
+      border: none;
+      color: ibm.$gray-10;
+    }
+
+    .navbar-toggler:focus {
+      border: 1px dotted ibm.$gray-10;
+    }
+
+    ul#theme-dropdown {
+      button.dropdown-item {
+        font-size: var(--bs-body-font-size);
+      }
+    }
+  }
+}
+
+main#page-content {
+  .row {
+    margin-left: initial;
+    margin-right: initial;
+  }
+
+  h2 {
+    font-size: 2.25rem;
+    margin-bottom: 1.5rem;
+  }
+
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin-bottom: 1rem;
+    margin-top: 1.25rem;
+  }
+
+  h3 {
+    font-size: 1.75rem;
+  }
+
+  h4 {
+    font-size: 1.5rem;
+  }
+
+  hr {
+    margin: 2.25rem 0 1.75rem;
+  }
+
+  h2#name {
+    font-size: 2.5rem;
+  }
+
+  h3#tagline {
+    font-size: 1.625rem;
+  }
+
+  .pronouns {
+    font-style: italic;
+  }
+
+  .pronouns::before {
+    content: "(";
+  }
+
+  .pronouns::after {
+    content: ")";
+  }
+
+  table {
+    .row-label {
+      font-weight: 500;
+      width: 8rem;
+    }
+  }
+
+  #title {
+
+    h2,
+    h3 {
+      margin-bottom: 0.5rem;
+    }
+
+    #tagline {
+      font-style: italic;
+      font-weight: normal;
+    }
+
+    #pronouns {
+      font-size: 1.2rem;
+      font-style: italic;
+      font-weight: normal;
+    }
+
+    #pronouns::before {
+      content: "(";
+    }
+
+    #pronouns::after {
+      content: ")";
+    }
+  }
+
+  #about,
+  #projects,
+  #contact {
+
+    h2,
+    h3 {
+      margin-bottom: 1rem;
+    }
+  }
+
+  #about {
+    background-color: ibm.$purple-30;
+  }
+
+  #projects {
+    background-color: ibm.$blue-30;
+  }
+
+  .figure-caption {
+    color: ibm.$gray-80;
+    font-size: 95%;
+    font-weight: 600;
+    padding: 0.5rem 0;
+  }
+
+  .img-fluid {
+    max-width: 95%;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .col.col-lg-6 {
+    .figure {
+      .img-fluid {
+        max-width: 100%;
+      }
+    }
+  }
+
+  .post-list {
+    article {
+      h3 {
+        font-size: 1.625rem;
+      }
+    }
+  }
+
+  .post-metadata {
+    .bi {
+      color: ibm.$red-50;
+    }
+  }
+
+  pre.highlight {
+    border: 1px solid ibm.$gray-50;
+    margin: 2rem 3rem 2rem 1rem;
+    padding: 1rem;
+  }
+
+  .prev-page::before {
+    content: "← ";
+  }
+
+  .next-page::after {
+    content: " →";
+  }
+
+  .card {
+    .card-title {
+      margin: 1rem 0;
+    }
+  }
+
+  .card.card-link-list {
+    .card-body {
+      background-color: $card-title-bg;
+    }
+  }
+
+  .btn-sm {
+    font-size: 1rem;
+  }
+}
+
+footer {
+  color: ibm.$gray-10;
+
+  a {
+    color: ibm.$gray-10;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  .links {
+    background-color: ibm.$gray-100;
+
+    a {
+      font-weight: 500;
+    }
+
+    ul {
+      list-style: none;
+      margin-bottom: 0;
+
+      li {
+        display: inline;
+        margin: 0 0.4rem;
+        padding: 0;
+      }
+    }
+  }
+
+  .copyright {
+    background-color: ibm.$black;
+
+    a,
+    a:link,
+    a:hover,
+    a:visited {
+      font-weight: 500;
+      text-decoration: underline dotted;
+    }
+  }
+}
+
+[data-bs-theme="dark"] {
+  main {
+    .card.card-link-list {
+      .card-body {
+        background-color: $card-title-bg-dark;
+      }
+    }
+  }
+
+  main#page-content {
+    #about {
+      background-color: ibm.$purple-80;
+    }
+
+    #projects {
+      background-color: ibm.$blue-80;
+
+      a {
+        color: ibm.$gray-10;
+      }
+    }
+
+    .figure-caption,
+    .img-caption {
+      color: ibm.$gray-20;
+    }
+
+    .tags-list {
+      .btn-outline-primary {
+        color: ibm.$gray-10;
+      }
+    }
+  }
+}
+
+@media only print {
+  header {
+    display: none;
+  }
+
+  main#page-content {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+
+    h2 {
+      font-size: 1.375rem !important;
+    }
+
+    h3 {
+      font-size: 1.25rem !important;
+    }
+
+    h4 {
+      font-size: 1.125rem !important;
+    }
+
+    .post-list {
+      article {
+        break-inside: avoid-page;
+      }
+    }
+
+    .post-metadata.mb-4 {
+      margin-bottom: 0.5rem !important;
+    }
+
+    .paginate-links {
+      display: none;
+    }
+  }
+
+  footer {
+    .links {
+      display: none;
+    }
+  }
+}

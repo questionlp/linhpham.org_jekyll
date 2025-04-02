@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="{{- site.lang | default: "en-US" -}}" class="h-100">
+<head>
+    {% include head.html %}
+    {%- if site.title -%}
+    <title>Blog Posts | {{ site.title | escape }}</title>
+    {%- else -%}
+    <title>Blog Posts</title>
+    {%- endif %}
+</head>
+
+<body class="d-flex flex-column h-100">
+    {%- include page_nav.html -%}
+
+    <main id="page-content" class="pt-3 mt-5">
+        <div class="container-fluid p-3">
+            <div id="content-body" class="post-list mt-2 mx-3">
+                <h2 class="mb-3">Blog Posts</h2>
+
+                {%- if site.posts.size > 0 -%}
+                <div class="post-list">
+                {%- for post in site.posts %}
+                    <article class="pt-1">
+                        <h3><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3>
+                        <div class="post-metadata mb-4">
+                        {%- if post.date -%}
+                            <div class="d-md-inline me-5">
+                                <i class="bi bi-clock me-2" title="Published"></i><span class="d-none">Published</span>
+                                <time datetime="{{ post.date | date: '%F %T%z' }}">
+                                    {{ post.date | date: site.date_format_long }}
+                                </time>
+                            </div>
+                        {%- endif %}
+                        {%- if post.tags and post.tags.size > 0 -%}
+                            <div class="d-md-inline tags-list">
+                                <i class="bi bi-tag me-2" title="Post Tags"></i><span class="d-none">Tags</span>
+                            {% assign post_tags = post.tags | sort %}
+                            {%- for tag in post_tags -%}
+                                {%- capture tag_name -%}{{ tag }}{%- endcapture -%}
+                                <a class="btn btn-outline-primary btn-sm me-2 mb-1" href="/blog/tag/{{ tag_name }}">{{- tag_name -}}</a>
+                            {%- endfor -%}
+                            </div>
+                        {%- endif -%}
+                        </div>
+                    </article>
+                {%- endfor -%}
+                </div>
+                {%- endif -%}
+            </div>
+        </div>
+    </main>
+
+    {%- include page_footer.html -%}
+</body>
+
+</html>

@@ -1,0 +1,82 @@
+author:
+  name: Linh Pham
+  url: "https://linhpham.org/"
+
+url: "https://linhpham.org" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+domain: linhpham.org
+title: "linhpham.org" # the name of your site, e.g. ACME Corp.
+brand-title: "linhpham.org"
+
+include:
+  - ".well-known"
+
+exclude:
+  - LICENSE
+  - README.md
+  - _scss/
+  - .sass-cache/
+  - .jekyll-cache/
+  - build.sh
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - package.json
+  - package-lock.json
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+# Apple Touch Icon and Favicon Paths
+apple_touch_icon: "/apple-touch-icon.png"
+favicon_ico: "/favicon.ico"
+favicon_png: "/favicon.png"
+favicon_svg: "/favicon.svg"
+
+date_format: "%d %b %Y"
+date_format_long: "%d %B %Y %H:%M %Z"
+
+footer_links:
+  - { name: "Mastodon", url: "https://linh.social/@qlp", rel: "me" }
+  - { name: "Bluesky", url: "https://bsky.app/profile/linh.social" }
+  - { name: "Flickr", url: "https://www.flickr.com/people/questionlp/" }
+  - { name: "GitHub", url: "https://github.com/questionlp" }
+
+nav_links:
+  - { name: "About", url: "/about" }
+  - { name: "Blog Posts", url: "/blog" }
+  - { name: "Links", url: "/links" }
+  - { name: "Projects", url: "/projects" }
+
+jekyll-archives:
+  enabled: [year, tags]
+  layouts:
+    year: year-archive
+    tag: tag-archive
+  permalinks:
+    year: "/blog/:year/"
+    tag: "/blog/tag/:name/"
+
+kramdown:
+  smart_quotes: apos,apos,quot,quot
+
+permalink: /blog/:year/:title/
+
+plugins:
+  - jekyll-archives
+  - jekyll-feed
+  - jekyll-sitemap
+
+sass:
+  load_paths:
+    - _scss
+    - node_modules
+
+timezone: America/Los_Angeles
+
+umami_analytics:
+  url: "https://unagi.linhpham.org/script.js"
+  data_website_id: "6c742e62-2d62-433e-835e-f3417e4b9b51"
+  data_domains: "linhpham.org"

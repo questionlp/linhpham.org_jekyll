@@ -1,0 +1,21 @@
+{% assign show_nav_brand = true %}
+<!DOCTYPE html>
+<html lang="{{- site.lang | default: "en-US" -}}" class="h-100">
+<head>
+{%- include head.html %}
+{%- if site.title %}
+<title>{{ site.title | escape }}</title>
+{%- endif %}
+</head>
+
+<body class="d-flex flex-column h-100">
+    {%- include page_nav.html -%}
+
+    <main id="page-content">
+        {{ content }}
+    </main>
+
+    {%- include page_footer.html -%}
+</body>
+
+</html>

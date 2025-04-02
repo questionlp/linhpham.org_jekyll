@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="{{- site.lang | default: "en-US" -}}" class="h-100">
+<head>
+{% include head.html %}
+{%- if page.title and site.title -%}
+    <title>{{ page.title | escape }} | {{ site.title | escape }}</title>
+{%- elsif page.title -%}
+    <title>{{ page.title | escape }}</title>
+{%- elsif site.title -%}
+    <title>{{ site.title | escape }}</title>
+{%- endif %}
+</head>
+
+<body class="d-flex flex-column h-100">
+    {%- include page_nav.html -%}
+
+    <main id="page-content" class="pt-3 mt-5">
+        <div class="container-fluid p-3">
+            <div id="content-body" class="mt-2 mx-3">
+                <article>
+                    <h2 class="mb-3">{{ page.title | escape }}</h2>
+
+                    <div class="post-metadata mb-4">
+                        {%- if page.date -%}
+                        <div class="d-md-inline me-5">
+                            <i class="bi bi-clock me-2" title="Published"></i><span class="d-none">Published</span>
+                            <time datetime="{{ page.date | date: '%F %T%z' }}">
+                                {{ page.date | date: site.date_format_long }}
+                            </time>
+                        </div>
+                        {%- endif %}
+                        {%- if page.tags and page.tags.size > 0 -%}
+                        <div class="d-md-inline tags-list">
+                            <i class="bi bi-tag me-2" title="Post Tags"></i><span class="d-none">Tags</span>
+                        {% assign page_tags = page.tags | sort %}
+                        {%- for tag in page_tags -%}
+                            {%- capture tag_name -%}{{ tag }}{%- endcapture -%}
+                            <a class="btn btn-outline-primary btn-sm me-2 mb-1" href="/blog/tag/{{ tag_name }}">{{- tag_name -}}</a>
+                        {%- endfor -%}
+                        </div>
+                        {%- endif -%}
+                    </div>
+
+                    {{ content }}
+                </article>
+
+                {%- if page.previous or page.next -%}
+                <div class="paginate-links border-top mt-5 py-4">
+                    <div class="row">
+                        {%- if page.previous and page.next -%}
+                        <div class="col-12 col-sm-6 text-start prev-page">
+                            <a href="{{ page.previous.url }}">{{ page.previous.title | escape }}</a>
+                        </div>
+                        <div class="col-12 col-sm-6 text-end next-page">
+                            <a href="{{ page.next.url }}">{{ page.next.title | escape }}</a>
+                        </div>
+                        {%- elsif page.previous -%}
+                        <div class="col-12 col-md-6 text-start prev-page">
+                            <a href="{{ page.previous.url }}">{{ page.previous.title | escape }}</a>
+                        </div>
+                        <div class="col-12 col-md-6"></div>
+                        {%- elsif page.next -%}
+                        <div class="col-12 col-md-6"></div>
+                        <div class="col-12 col-md-6 text-end next-page">
+                            <a href="{{ page.next.url }}">{{ page.next.title | escape }}</a>
+                        </div>
+                        {%- endif -%}
+                    </div>
+                </div>
+                {%- endif -%}
+            </div>
+        </div>
+    </main>
+
+    {%- include page_footer.html -%}
+</body>
+
+</html>

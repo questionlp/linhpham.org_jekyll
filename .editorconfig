@@ -1,0 +1,17 @@
+# EditorConfig File
+root = true
+
+[*]
+end_of_line = lf
+insert_final_newline = true
+
+[*.{json,md,py,rst,css,html,scss}]
+charset = utf-8
+
+[*.{html,py,rst,tmpl}]
+indent_size = 4
+indent_style = space
+
+[*.{css,js,ts,json,scss}]
+indent_size = 2
+indent_style = space
