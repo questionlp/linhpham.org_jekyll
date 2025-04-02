@@ -8,4 +8,4 @@ export JEKYLL_ENV=production
 eval "$(rbenv init -)"
 npm run build
 mv ${SITE_PARENT}${SITE_DIR} ${BACKUP_DIR}${SITE_DIR}-`date +%Y%m%d-%H%M%S`
-cp -r _site %{SITE_PARENT}${SITE_DIR}
+cp -r _site ${SITE_PARENT}${SITE_DIR}
