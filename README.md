@@ -15,3 +15,4 @@ Several components are distributed by this project and are licensed under the co
 * Bootstrap: [MIT License](https://github.com/twbs/bootstrap/blob/main/LICENSE)
 * Bootstrap Icons: [MIT License](https://github.com/twbs/icons/blob/main/LICENSE)
 * IBM Plex Mono and IBM Plex Sans: [SIL Open font License Version 1.1](https://github.com/IBM/plex/blob/master/LICENSE.txt)
+* Pagefind: [MIT License](https://github.com/CloudCannon/pagefind/blob/main/LICENSE)

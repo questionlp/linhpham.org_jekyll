@@ -1,0 +1,47 @@
+// IBM Design Colors
+@use "./colors-ibm" as ibm;
+
+input.pagefind-ui__search-input {
+  @extend .form-control;
+  width: 82.5vw;
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+button.pagefind-ui__search-clear,
+button.pagefind-ui__button {
+  @extend .btn;
+  @extend .btn-primary;
+}
+
+ol.pagefind-ui__results {
+  @extend .pt-1;
+
+  li.pagefind-ui__result {
+    @extend .py-1;
+
+    p.pagefind-ui__result-title {
+      font-weight: 500;
+    }
+  }
+}
+
+p.pagefind-ui__message {
+  @extend .mt-3;
+}
+
+mark,
+.mark {
+  background-color: ibm.$green-30;
+  color: ibm.$gray-100;
+}
+
+@media only screen and (max-width: 480px) {
+  input.pagefind-ui__search-input {
+    width: 80vw;
+  }
+
+  button.pagefind-ui__search-clear {
+    margin-top: 0.5rem;
+  }
+}
