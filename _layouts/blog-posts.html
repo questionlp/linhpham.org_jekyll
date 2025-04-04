@@ -1,12 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{- site.lang | default: "en-US" -}}" class="h-100">
 <head>
-    {% include head.html %}
-    {%- if site.title -%}
-    <title>Blog Posts | {{ site.title | escape }}</title>
-    {%- else -%}
-    <title>Blog Posts</title>
-    {%- endif %}
+{% include head.html %}
 </head>
 
 <body class="d-flex flex-column h-100">

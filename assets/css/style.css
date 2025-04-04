@@ -12751,7 +12751,7 @@ footer .copyright a:visited {
 }
 
 [data-bs-theme=dark] main .card.card-link-list .card-body {
-  background-color: #262626;
+  background-color: #262626 !important;
 }
 [data-bs-theme=dark] main#page-content #about {
   background-color: #491d8b;

@@ -1,6 +1,7 @@
 author:
   name: Linh Pham
   url: "https://linhpham.org/"
+  mastodon: "@qlp@linh.social"
 
 url: "https://linhpham.org" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog

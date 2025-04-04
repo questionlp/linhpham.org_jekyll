@@ -316,7 +316,7 @@ footer {
   main {
     .card.card-link-list {
       .card-body {
-        background-color: $card-title-bg-dark;
+        background-color: $card-title-bg-dark !important;
       }
     }
   }

@@ -1,14 +1,10 @@
 <!DOCTYPE html>
 <html lang="{{- site.lang | default: "en-US" -}}" class="h-100">
 <head>
-{% include head.html %}
-{%- if page.date and site.title -%}
-<title>Tag: {{ page.date | date: "%Y" }} | {{ site.title | escape }}</title>
-{%- elsif page.date -%}
-<title>Tag: {{ page.date | date: "%Y" }}</title>
-{%- elsif site.title -%}
-<title>{{ site.title | escape }}</title>
-{%- endif %}
+{% capture page_title %}
+Year: {{ page.date | date: "%Y" }} | {{ site.title }}
+{% endcapture %}
+{% include head.html page_title=page_title %}
 </head>
 
 <body class="d-flex flex-column h-100">

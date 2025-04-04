@@ -1,8 +1,19 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-{% seo title=false %}
 <link rel="stylesheet" href="{{ "/assets/css/style.min.css" | relative_url }}">
 <link rel="stylesheet" href="{{ "/assets/bootstrap-icons/font/bootstrap-icons.min.css" | relative_url }}">
+<meta name="fediverse:creator" content="{{ site.author.mastodon }}">
+{%- if include.page_title %}
+<title>{{ include.page_title }}</title>
+{%- elsif page.title and site.title -%}
+<title>{{ page.title | escape }} | {{ site.title | escape }}</title>
+{%- elsif page.title -%}
+<title>{{ page.title | escape }}</title>
+{%- elsif site.title -%}
+<title>{{ site.title | escape }}</title>
+{%- endif %}
+
+{% seo title=false %}
 {%- if site.apple_touch.icon -%}
 <link rel="apple-touch-icon" href="{{ site.apple_touch_icon | relative_url }}">
 {%- endif %}

@@ -2,13 +2,6 @@
 <html lang="{{- site.lang | default: "en-US" -}}" class="h-100">
 <head>
 {% include head.html %}
-{%- if page.title and site.title -%}
-    <title>{{ page.title | escape }} | {{ site.title | escape }}</title>
-{%- elsif page.title -%}
-    <title>{{ page.title | escape }}</title>
-{%- elsif site.title -%}
-    <title>{{ site.title | escape }}</title>
-{%- endif %}
 </head>
 
 <body class="d-flex flex-column h-100">
