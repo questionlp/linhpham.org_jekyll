@@ -3,7 +3,7 @@
 
 input.pagefind-ui__search-input {
   @extend .form-control;
-  width: 82.5vw;
+  width: 75vw;
   display: inline-block;
   vertical-align: bottom;
 }
@@ -36,7 +36,7 @@ mark,
   color: ibm.$gray-100;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 526px) {
   input.pagefind-ui__search-input {
     width: 80vw;
   }

@@ -2,7 +2,7 @@
   "dependencies": {
     "@ibm/plex-mono": "^1.1.0",
     "@ibm/plex-sans": "^1.1.0",
-    "bootstrap": "^5.3.3",
+    "bootstrap": "^5.3.4",
     "bootstrap-icons": "^1.11.3"
   },
   "scripts": {
@@ -11,8 +11,8 @@
     "copy-fonts": "cp -r node_modules/@ibm/plex-sans/fonts/* node_modules/@ibm/plex-mono/fonts/* assets/fonts/",
     "copy-icons": "cp -r node_modules/bootstrap-icons assets/ && rm -r assets/bootstrap-icons/icons",
     "all": "npm run compile && npm run copy-bundle && npm run copy-fonts && npm run copy-icons",
-    "build": "npm run compile && jekyll build && npx pagefind",
-    "serve": "npm run compile && jekyll build --future --drafts && npx pagefind --serve",
+    "build": "npm run all && jekyll build && npx pagefind",
+    "serve": "npm run all && jekyll build --future --drafts && npx pagefind --serve",
     "clean": "jekyll clean"
   }
 }
