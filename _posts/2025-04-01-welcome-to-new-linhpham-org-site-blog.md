@@ -34,9 +34,9 @@ Today, I am re-lauching **linhpham.org** to combine those two sites under one do
     </div>
 </div>
 
-Previously, **linhpham.org** was a static site, with two pages, built using the Bulma frontend toolkit while **blog.linh.social** is built using [Jekyll](https://jekyllrb.com/) and a custom theme that I created called [termina-plex]({% post_url 2024-03-24-announcing-termina-plex-theme-jekyll %}). The new site is built using Jekyll, but uses [Bootstrap](https://getbootstrap.com/) as the frontend toolkit with influences from the same [IBM Design Language](https://www.ibm.com/design/language/) that also influenced the design of the [Wait Wait Stats Page](http://stats.wwdt.me) and related sites.
+Previously, **linhpham.org** was a static site, with two pages, built using the Bulma frontend toolkit while **blog.linh.social** is built using [Jekyll](https://jekyllrb.com/) and a custom theme that I created called [termina-plex]({{ site.url }}{% post_url 2024-03-24-announcing-termina-plex-theme-jekyll %}). The new site is built using Jekyll, but uses [Bootstrap](https://getbootstrap.com/) as the frontend toolkit with influences from the same [IBM Design Language](https://www.ibm.com/design/language/) that also influenced the design of the [Wait Wait Stats Page](http://stats.wwdt.me) and related sites.
 
-I also incorporated some of the learnings from building the [Hey Gurgle]({% post_url 2025-03-16-launching-hey-gurgle-search-engine %}) website using Bootstrap, including using helper classes more often for defining component margins, padding and sizing. There are still some custom CSS and variable tweaking needed behind the scenes, but not to the same degree as the Wait Wait Stats Project sites.
+I also incorporated some of the learnings from building the [Hey Gurgle]({{ site.url }}{% post_url 2025-03-16-launching-hey-gurgle-search-engine %}) website using Bootstrap, including using helper classes more often for defining component margins, padding and sizing. There are still some custom CSS and variable tweaking needed behind the scenes, but not to the same degree as the Wait Wait Stats Project sites.
 
 <div class="row">
     <div class="col col-lg-6">

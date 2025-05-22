@@ -17,7 +17,7 @@ For more information on the Stats library changes, check the Changes page at [do
 
 ### ThinkPad Laptop Updates: Moving to Debian 12
 
-In November, I [wrote a post]({% post_url 2023-11-27-laptop-lenovo-thinkpad-t14-gen-3 %}) about a Lenovo ThinkPad T14 Gen 3 laptop that I picked up to run Linux. After using Pop!_OS for a short time, I still wanted to be able to play around or even switch to KDE Plasma full-time. Unfortunately, package dependencies in Pop!_OS for KDE Plasma would replace the MySQL packages I installed with MariaDB packages. That's a non-starter for me.
+In November, I [wrote a post]({{ site.url }}{% post_url 2023-11-27-laptop-lenovo-thinkpad-t14-gen-3 %}) about a Lenovo ThinkPad T14 Gen 3 laptop that I picked up to run Linux. After using Pop!_OS for a short time, I still wanted to be able to play around or even switch to KDE Plasma full-time. Unfortunately, package dependencies in Pop!_OS for KDE Plasma would replace the MySQL packages I installed with MariaDB packages. That's a non-starter for me.
 
 I decided to back up my files and try out Debian 12. I chose Debian 12 as it was not laden with Ubuntu Snap, and it had a newer version of the kernel than Ubuntu 22.04 LTS (but older than the version in Pop!_OS). Installing and setting it up as a development system was quick but only with a few road bumps.
 

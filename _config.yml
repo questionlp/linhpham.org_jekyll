@@ -8,6 +8,9 @@ baseurl: "" # the subpath of your site, e.g. /blog
 domain: linhpham.org
 title: "linhpham.org" # the name of your site, e.g. ACME Corp.
 brand-title: "linhpham.org"
+# name: "linhpham.org"
+description: "Personal site and blog for Linh Pham"
+feed_items: 25
 
 include:
   - ".well-known"

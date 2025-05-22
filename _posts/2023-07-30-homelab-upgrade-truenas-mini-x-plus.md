@@ -5,7 +5,7 @@ date:   2023-07-30 21:30:00 -0700
 tags:   homelab storage truenas
 ---
 
-In my "[Homelab Setup: Storage]({% post_url 2023-03-07-homelab-setup-storage %})" blog post, I mentioned that I have a Synology DS918+ NAS (network-attached storage) server that houses my music, video, photos, and game collection. Also, I stated that I might be looking at either replacing it or augmenting my network storage with a second NAS.
+In my "[Homelab Setup: Storage]({{ site.url }}{% post_url 2023-03-07-homelab-setup-storage %})" blog post, I mentioned that I have a Synology DS918+ NAS (network-attached storage) server that houses my music, video, photos, and game collection. Also, I stated that I might be looking at either replacing it or augmenting my network storage with a second NAS.
 
 After looking at the options available, including another Synology NAS, switching to QNAP, building a custom storage server, or buying a [TrueNAS Mini](https://www.truenas.com/truenas-mini/) server, I settled on a TrueNAS Mini X+ to augment my network storage. The decision was to avoid being locked into another vendor's proprietary ecosystem or the limiting hardware options on which many home or small business NAS servers are built.
 

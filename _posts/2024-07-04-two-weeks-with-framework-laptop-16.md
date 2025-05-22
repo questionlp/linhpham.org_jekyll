@@ -11,7 +11,7 @@ As I write this, I have been using a Framework Laptop 16 as my daily driver lapt
 
 ### The Why
 
-I have been using [Fedora on a ThinkPad T14]({% post_url 2024-02-26-thinkpad-updates-switching-fedora-39 %}) for several months to test how well I could use Linux daily and what changes I would need to make to migrate away from macOS and my 16-inch M1 Max MacBook Pro. Outside of some software gaps in my workflow, the ThinkPad had a couple of hardware dealbreakers.
+I have been using [Fedora on a ThinkPad T14]({{ site.url }}{% post_url 2024-02-26-thinkpad-updates-switching-fedora-39 %}) for several months to test how well I could use Linux daily and what changes I would need to make to migrate away from macOS and my 16-inch M1 Max MacBook Pro. Outside of some software gaps in my workflow, the ThinkPad had a couple of hardware dealbreakers.
 
 The small display and 1920x1200 resolution felt too cramped for everyday use, though it works well enough for traveling. The Intel Core i5-1245U processor was fast enough for web browsing and bursty loads, but constrained power limits and thermals capped the performance of long-running workloads.
 

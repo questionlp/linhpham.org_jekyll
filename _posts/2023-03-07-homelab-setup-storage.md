@@ -5,7 +5,7 @@ date:   2023-03-07 16:45:00 -0800
 tags:   homelab storage
 ---
 
-In the last two posts in the series about my homelab, I covered the [server]({% post_url 2023-02-23-homelab-setup-servers %}) and [network]({% post_url 2023-02-27-homelab-setup-networking %}) portion of the homelab. This post will cover the storage side of things.
+In the last two posts in the series about my homelab, I covered the [server]({{ site.url }}{% post_url 2023-02-23-homelab-setup-servers %}) and [network]({{ site.url }}{% post_url 2023-02-27-homelab-setup-networking %}) portion of the homelab. This post will cover the storage side of things.
 
 ### Network Attached Storage
 

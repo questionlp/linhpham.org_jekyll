@@ -7,7 +7,7 @@ tags:   fedora hardware laptops linux
 
 **Update:** The issue seems to have been resolved with the ISO images for the first beta varsion of Fedora 40. I was able to boot from the ISO image for the regular Fedora Workstation and for the KDE spin without modification. I did not have to disable either the TPM or the Secure Boot UEFI settings.
 
-In November, in the [blog post]({% post_url 2023-11-27-laptop-lenovo-thinkpad-t14-gen-3 %}) about the Lenovo ThinkPad T14 Gen 3 laptop I had purchased, I installed Kubuntu on a Microsoft Surface Pro 3 tablet. Since then, I wanted to try Fedora but ran into a blocker when trying to boot from a USB thumb drive containing any spin of Fedora 39. The following error would appear after the Surface started to boot:
+In November, in the [blog post]({{ site.url }}{% post_url 2023-11-27-laptop-lenovo-thinkpad-t14-gen-3 %}) about the Lenovo ThinkPad T14 Gen 3 laptop I had purchased, I installed Kubuntu on a Microsoft Surface Pro 3 tablet. Since then, I wanted to try Fedora but ran into a blocker when trying to boot from a USB thumb drive containing any spin of Fedora 39. The following error would appear after the Surface started to boot:
 
 ```text
 Invalid image

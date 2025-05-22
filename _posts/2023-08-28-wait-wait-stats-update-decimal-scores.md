@@ -5,7 +5,7 @@ date:   2023-08-28 21:30:00 -0700
 tags:   waitwait update
 ---
 
-Since publishing the "[Wait Wait Shows From 1998 to 1999]({% post_url 2023-08-12-wait-wait-shows-from-1998-1999 %})" blog post, I have listened to the [Wait Wait Don't Tell Me!](https://waitwait.npr.org/) shows that aired from January 1998 through April 1998. While listening to those shows, I was surprised that panelists could receive half points during various segments. This forced me to think of what changes I would need to create in the various Wait Wait Stats applications and the Stats database.
+Since publishing the "[Wait Wait Shows From 1998 to 1999]({{ site.url }}{% post_url 2023-08-12-wait-wait-shows-from-1998-1999 %})" blog post, I have listened to the [Wait Wait Don't Tell Me!](https://waitwait.npr.org/) shows that aired from January 1998 through April 1998. While listening to those shows, I was surprised that panelists could receive half points during various segments. This forced me to think of what changes I would need to create in the various Wait Wait Stats applications and the Stats database.
 
 I set out one requirement when making the changes: maintain backward compatibility with previous versions of the Wait Wait Stats library and the Wait Wait Stats API. Changing only the panelist score column type from integer to decimal would be a significant change, requiring a major version bump to both the library and the API and breaking applications that use either.
 

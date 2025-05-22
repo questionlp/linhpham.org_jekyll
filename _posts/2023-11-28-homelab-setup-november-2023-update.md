@@ -5,7 +5,7 @@ date:   2023-11-28 21:25:00 -0800
 tags:   homelab servers virtualization update
 ---
 
-Since my [last homelab update]({% post_url 2023-10-28-homelab-setup-update-october-2023 %}) for October 2023, I have made a few changes to my virtualization setup. One of those changes includes a partial migration away from [VMware Hypervisor](https://www.vmware.com/products/vsphere-hypervisor.html).
+Since my [last homelab update]({{ site.url }}{% post_url 2023-10-28-homelab-setup-update-october-2023 %}) for October 2023, I have made a few changes to my virtualization setup. One of those changes includes a partial migration away from [VMware Hypervisor](https://www.vmware.com/products/vsphere-hypervisor.html).
 
 I have used a Dell OptiPlex 7060 Micro desktop as the sole Intel-based VMware Hypervisor server. I also have three Raspberry Pi 4 8 GB boards running [VMware ESXi-ARM Fling](https://customerconnect.vmware.com/downloads/get-download?downloadGroup=ESXI-ARM) that provide network services such as DNS and WireGuard. I previously had a Dell Precision 3430 slim desktop that also ran VMware ESXi Hypervisor, but I decommissioned it after setting up the three Pi 4 boards.
 
@@ -30,7 +30,7 @@ On each migrated VM, I had to modify the Netplan configuration files to use the 
 
 Once all the VMs had been migrated, I refreshed the OptiPlex desktop with a new thermal paste application and ordered another set of the same SSDs I installed in the Precision desktop. I also installed Proxmox into the computer and set up the storage similarly to the other host. Before migrating some of the VMs back over, I created a new cluster on the Precision host and joined the OptiPlex host to it. At that point, I could use live migration to move the VMs.
 
-To round things out, I created an NFS share on my [TrueNAS Mini X+]({% post_url 2023-07-30-homelab-upgrade-truenas-mini-x-plus %}) appliance to store VM backups using the included backup functionality in Proxmox (a feature that is not available in the free license version of ESXi)
+To round things out, I created an NFS share on my [TrueNAS Mini X+]({{ site.url }}{% post_url 2023-07-30-homelab-upgrade-truenas-mini-x-plus %}) appliance to store VM backups using the included backup functionality in Proxmox (a feature that is not available in the free license version of ESXi)
 
 While Proxmox VE is less polished than VMware ESXi, much less the paid vSphere suite of products, it serves my virtualization needs very well. To support the continued development of Proxmox VE and to get access to the Enterprise repository for updates, I purchased a Proxmox VE Community subscription for each of the hosts.
 

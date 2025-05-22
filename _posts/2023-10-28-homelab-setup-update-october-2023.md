@@ -5,7 +5,7 @@ date:   2023-10-28 22:10:00 -0700
 tags:   homelab servers storage networking update
 ---
 
-It has been a couple of months since my last homelab setup updates ([TrueNAS Mini X+]({% post_url 2023-07-30-homelab-upgrade-truenas-mini-x-plus %}) and [July 2023 Update]({% post_url 2023-07-04-homelab-setup-july-2023-update %})), and there has been a significant update to the networking stack.
+It has been a couple of months since my last homelab setup updates ([TrueNAS Mini X+]({{ site.url }}{% post_url 2023-07-30-homelab-upgrade-truenas-mini-x-plus %}) and [July 2023 Update]({{ site.url }}{% post_url 2023-07-04-homelab-setup-july-2023-update %})), and there has been a significant update to the networking stack.
 
 I have replaced the various unmanaged switches, including the main Netgear 24-port "core" Gigabit switch, the Netgear 5-port Gigabit switch for my desk, and the HP ProCurve 8-port Gigabit switch for my gaming and A/V stack. In their place is a set of Unifi switches from Ubiquiti networks.
 

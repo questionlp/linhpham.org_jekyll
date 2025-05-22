@@ -5,7 +5,7 @@ date:   2023-02-27 10:00:00 -0800
 tags:   homelab networking
 ---
 
-This is the second series of posts where I provide a view into my homelab. In the [first post]({% post_url 2023-02-23-homelab-setup-servers %}) covered the servers that I have and what I have running on them.
+This is the second series of posts where I provide a view into my homelab. In the [first post]({{ site.url }}{% post_url 2023-02-23-homelab-setup-servers %}) covered the servers that I have and what I have running on them.
 
 In this post, I'll cover the networking side of the homelab.
 

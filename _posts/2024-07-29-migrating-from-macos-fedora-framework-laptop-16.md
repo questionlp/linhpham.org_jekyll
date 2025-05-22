@@ -5,7 +5,7 @@ date:   2024-07-29 12:00:00 -0700
 tags:   linux hardware laptops
 ---
 
-It has been several weeks since my "[Two Weeks with a Framework Laptop 16]({% post_url 2024-07-04-two-weeks-with-framework-laptop-16 %})" post, in which I wrote about getting a Framework laptop and provided my thoughts on the hardware side of the laptop.
+It has been several weeks since my "[Two Weeks with a Framework Laptop 16]({{ site.url }}{% post_url 2024-07-04-two-weeks-with-framework-laptop-16 %})" post, in which I wrote about getting a Framework laptop and provided my thoughts on the hardware side of the laptop.
 
 As I write this post, I have used Fedora on the Framework laptop for over a month. In this post, I'll cover installing the KDE spin of Fedora Workstation 40, some customizations I've made to ease the transition from macOS to Fedora, and some applications I have switched to using.
 

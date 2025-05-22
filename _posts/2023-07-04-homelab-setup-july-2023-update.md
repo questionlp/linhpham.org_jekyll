@@ -5,9 +5,9 @@ date:   2023-07-04 19:45:00 -0700
 tags:   homelab servers storage networking virtualization update
 ---
 
-Since publishing the "[Homelab Setup: Servers]({% post_url 2023-02-23-homelab-setup-servers %})" post back in February, I have made several changes and updates to my homelab; including, some consolidation of workloads and an update on the storage side of things.
+Since publishing the "[Homelab Setup: Servers]({{ site.url }}{% post_url 2023-02-23-homelab-setup-servers %})" post back in February, I have made several changes and updates to my homelab; including, some consolidation of workloads and an update on the storage side of things.
 
-**Update:** There has been a little shuffling around with the Raspberry Pi 4 boards that are currently in use since this post was written. The "[Raspberry Pi Updates]({% post_url 2023-07-04-homelab-setup-july-2023-update %}#raspberry-pi-updates)" section has been updated to reflect the latest changes.
+**Update:** There has been a little shuffling around with the Raspberry Pi 4 boards that are currently in use since this post was written. The "[Raspberry Pi Updates]({{ site.url }}{% post_url 2023-07-04-homelab-setup-july-2023-update %}#raspberry-pi-updates)" section has been updated to reflect the latest changes.
 
 ### Raspberry Pi Updates
 
@@ -17,7 +17,7 @@ For the newer Pi 4 boards, I have switched away from CanaKit's Flirc-style fanle
 
 ### Samsung T7 USB SSDs Update
 
-In the "[Homelab Setup: Storage]({% post_url 2023-03-07-homelab-setup-storage %})" post, I had commented that I was getting some inconsistent performance out of the drives. Between updating the version of ESXi on ARM Fling and moving the SSDs further away from the Pi 4 cases, they seem to perform more consistently.
+In the "[Homelab Setup: Storage]({{ site.url }}{% post_url 2023-03-07-homelab-setup-storage %})" post, I had commented that I was getting some inconsistent performance out of the drives. Between updating the version of ESXi on ARM Fling and moving the SSDs further away from the Pi 4 cases, they seem to perform more consistently.
 
 If you plan on using a bunch of them in a Pi 4 cluster, I would recommend finding a way to keep them on the cooler side. The included USB Type A to USB Type C cable is just long enough to put them over to the side, away from the Pi 4 boards; but, you may need to get longer USB 3.0 Type A to Type C cables depending in how you have your cluster set up.
 
