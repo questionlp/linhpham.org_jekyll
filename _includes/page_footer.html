@@ -18,9 +18,14 @@
     <div class="footer border-top mt-auto py-3 px-1 copyright">
         <div class="container-fluid">
             <div class="row">
-                <div class="col copyright-text py-1">
+                <div class="col-lg-9 copyright-text py-1">
                     Copyright &copy; 2023&ndash;{{ site.time | date: "%Y" }} Linh Pham.
                     Code: <a href="https://github.com/questionlp/linhpham.org_jekyll/blob/main/LICENSE">MIT</a>. Content: <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>, unless otherwise stated.
+                </div>
+                <div class="col-lg-3 copyright-text text-lg-end py-1">
+                    <i class="bi bi-rss-fill pe-1" title="Feeds" aria-hidden="true"></i>
+                    <a href="{{ '/feed.xml' | relative_url }}">Atom</a> | <a href="{{ '/rss.xml' | relative_url }}">RSS</a>
+                </div>
                 </div>
             </div>
         </div>
