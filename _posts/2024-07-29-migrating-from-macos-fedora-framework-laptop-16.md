@@ -65,8 +65,8 @@ Eventually, I'll set up additional accounts on the NextCloud server to migrate t
 <figure class="figure w-100">
     <a target="_blank" href="/assets/images/framework-fedora/qownnotes.png">
     <img src="/assets/images/framework-fedora/qownnotes.png" class="img-fluid border" alt="QOwnNotes note-taking application">
-    <figcaption class="figure-caption text-center">
     </a>
+    <figcaption class="figure-caption text-center">
         QOwnNotes note-taking application for creating and organizing notes written in Markdown
     </figcaption>
 </figure>
