@@ -78,7 +78,7 @@ The Stats Page has also had some of its dependencies updated, including:
 
 ## Server Infrastructure Changes
 
-Over the next couple of weeks, I will be making a couple of changes to the servers that host and serve up the Wait Wait Stats Project. The purpose of the change is to optimize the overall hosts costs and to remove another third-party dependency.
+Over the next couple of weeks, I will be making a couple of changes to the servers that host and serve up the Wait Wait Stats Project. The purpose of the change is to optimize the overall hosting costs and to remove another third-party dependency.
 
 There may be some short periods of time when the sites may not be accessible as some of the changes are implemented and services are migrated.
 
