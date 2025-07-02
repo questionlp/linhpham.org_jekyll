@@ -9,6 +9,8 @@ In the past month, I have been working on a couple of updates for the Wait Wait 
 
 ## Update on the Server Infrastructure Changes
 
+**Update 2025-07-02:** I just fixed the broken MySQL database replication between the two web application servers. I will need to bolster the monitoring of the database servers in the coming weeks.
+
 Towards the end of the previous [Wait Wait Stats Updates blog post]({{ site.url }}{% post_url 2025-05-25-wait-wait-stats-update-may-2025 %}) published in May, I mentioned that I would be making changes to how the Wait Wait Stats Project sites are hosted and served.
 
 For a while, I had been hosting the sites through Cloudflare as a means to protect the site from potential attacks, but also create rules to limit or block bots and scrapers from taking a toll on the web servers. I made the decision to move away from Cloudflare for a couple of reasons, including: reducing overall hosting costs and reducing the number of third-party services required for hosting.
