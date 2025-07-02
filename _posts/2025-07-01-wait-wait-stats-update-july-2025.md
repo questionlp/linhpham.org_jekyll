@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Wait Wait Stats Updates: July 2025"
-date:   2025-07-01 20:45:00 -0700
+date:   2025-07-01 21:00:00 -0700
 tags:   waitwait update
 ---
 
@@ -63,6 +63,8 @@ Some of the hurdles for collecting that information in the past included the lac
 
 Now that I have access to almost every show from 1998 through the most recent show, I have started the task of listening through those Best Of shows to collect and enter in the panelists who appeared in those segments. I am also included a few additional notes as I run into any interesting information from those shows, including guest hosts and scorekeepers.
 
-## What's Up Next?
+## Wrapping Up
+
+Flickr [recently announced](https://blog.flickr.net/en/2025/06/18/creative-commons-4-0-has-arrived-on-flickr/) that they added support for version 4.0 of the [Creative Commons](https://creativecommons.org/) licenses and added the ability to bulk update photos to use the new license. Up until then, I had been uploading photos of the notes I take for each Wait Wait Don't Tell Me! that I listen to up on Flickr and licensed them under [Creative Commons Attribution-NonCommercial-ShareAlike 2.0](https://creativecommons.org/licenses/by-nc-sa/2.0/). With the ability to bulk update photos, all of the photos are now under [Creative Commons Attribution-NonCommercial-ShareAlike 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). The photos are added to the [Wait Wait Don't Tell Me! Notes](https://www.flickr.com/photos/questionlp/albums/72157718939162790/) album and are ordered from oldest to newest.
 
 Once I finish filling in the "Multiple" panelist blanks in the data, I'm not sure what new features, reports or updates will come to the Wait Wait Stats Project sites. I will most likely focus on listening through the shows from 2000 and onwards, as well as updating the show descriptions to use the new format I have been using for the 1998, 1999 and recent shows.
