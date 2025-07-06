@@ -58,9 +58,9 @@ For document and file syncing, I have been using Dropbox for a long time and sta
 
 While there is an official Dropbox client for Linux, it only handles file synchronization and provides no graphical user interface for showing status or integrating with file managers. Apple iCloud has no official Linux support.
 
-I decided to set up an instance of NextCloud using the [official all-in-one installation process](https://github.com/nextcloud/all-in-one) on a Debian instance. I installed the official NextCloud client AppImage on my Linux laptops and the official apps for macOS and iOS on my Apple devices.
+I decided to set up an instance of Nextcloud using the [official all-in-one installation process](https://github.com/nextcloud/all-in-one) on a Debian instance. I installed the official Nextcloud client AppImage on my Linux laptops and the official apps for macOS and iOS on my Apple devices.
 
-Eventually, I'll set up additional accounts on the NextCloud server to migrate the shared calendars and contacts from iCloud.
+Eventually, I'll set up additional accounts on the Nextcloud server to migrate the shared calendars and contacts from iCloud.
 
 <figure class="figure w-100">
     <a target="_blank" href="/assets/images/framework-fedora/qownnotes.png">
@@ -71,7 +71,7 @@ Eventually, I'll set up additional accounts on the NextCloud server to migrate t
     </figcaption>
 </figure>
 
-To replace the Apple Notes application, I used [QOwnNotes](https://www.qownnotes.org/) because of its native integration with Git and NextCloud. QOwnNotes is also available for macOS and Windows. I installed the NextCloud Notes app for the iPhone, which is thread-bare but works in a pinch.
+To replace the Apple Notes application, I used [QOwnNotes](https://www.qownnotes.org/) because of its native integration with Git and Nextcloud. QOwnNotes is also available for macOS and Windows. I installed the Nextcloud Notes app for the iPhone, which is thread-bare but works in a pinch.
 
 #### AirDrop and iPhone Integration
 
