@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "One Year With a Framework Laptop 16 and Fedora KDE Plasma Desktop"
-date:   2025-07-06 16:00:00 -0700
+date:   2025-07-06 16:40:00 -0700
 tags:   linux hardware laptops
 ---
 
@@ -38,6 +38,12 @@ Outside of the issue that I mentioned in the first Framework Laptop 16 blog post
 Usually, I have five of the lavender USB Type-C expansion cards (two on each side, slotted into the rear-most and middle slots, plus one on the front-most right side slot) and a standard USB Type-A expansion card on the front-most left side slot. The Type-A port is quite useful when I'm using a small microSD card reader with a Type-A connector and have a full-sized SD card reader slotted in to copy or clone microSD cards for my Raspberry Pis or handheld game consoles.
 
 I also got the RGB US English version of the keyboard mostly so that I can have a different color backlight than just white. I don't really care for LEDs that change colors or patterns, especially when not doing anything. I ended up carefully prying off the `Super` and `Alt Gr` keycaps from the International English (Linux) keyboard so that I wouldn't have to have a Windows keycap on a laptop running Linux. I have uploaded the RGB version of the QMK/VIA keymaps on my [framework-laptop-16](https://github.com/questionlp/framework-laptop-16) repository.
+
+Not long after I received my Framework Laptop, Framework [announced a new version of the webcam module](https://frame.work/blog/framework-laptop-13-deep-dive---a-laptop-webcam-with-smartphone-technology) that includes pixel binning and backside illumination to improve the quality of the webcam image. I don't do a lot of video calls, but I thought it would be interesting to see how much of an improvement the new module makes.
+
+After ordering and receiving the new module, the process to swap out the old module with the new one was a little bit fiddly. The [written guide](https://guides.frame.work/Guide/Webcam/302?lang=en) that Framework provides was well written and had good photos for each step. What I had issues with was just my manual dexterity is not great, so I had a more trouble with the connector's latching mechanism, shims and getting the whole thing back in properly. Software like Zoom and OBS Studio picked up the new webcam without any issues.
+
+In terms of image quality, there was a tiny bit of improvement in overall sharpness with decent lighting, but it did better in poorer lightning conditions. While it probably wasn't worth the cost to upgrade, given the little amount that I use the webcam in general, but the small bump in image quality was still nice to have.
 
 ## App Gaps? Nah
 
