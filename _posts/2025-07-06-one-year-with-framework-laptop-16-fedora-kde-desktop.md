@@ -5,6 +5,8 @@ date:   2025-07-06 16:40:00 -0700
 tags:   linux hardware laptops
 ---
 
+> **Note:** At the end of this blog post, I write <q>I don't plan on switching to Fedora Atomic</q>. I am firm on that decision. Don't be that reply person.
+
 It has been a little over a year since I made the decision to migrate away from macOS to Linux as my primary operating system and placed an order for, then received, a Framework Laptop 16. I [wrote about my impressions two week in]({{ site.url }}{% post_url 2024-07-04-two-weeks-with-framework-laptop-16 %}) after install the [KDE Spin of Fedora Linux 40](https://fedoraproject.org/kde/) (which has since been [promoted to Fedora KDE Plasma Desktop](https://fedoramagazine.org/announcing-fedora-linux-42/)) and using it for two weeks.
 
 Three weeks later, I had been using the Fedora almost full-time and only used macOS for iPhone-related tasks (such as: tranferring music and podcasts, making local backups of RAW photos that I take at shows and events, and using Lightroom Classic). On average, I spend less than 4 hours a month using the MacBook Pro while I am almost constantly on the Framework Laptop or my Lenovo ThinkPad T14 Gen 3 running Fedora.
@@ -28,6 +30,8 @@ I did get a PTM thermal material from Framework that they offered for Framework 
 I have recently experience some hard freezes when in Fedora either when in Power Save mode and on battery or when leaving the laptop alone for a little while and when there's an issue with `qtwayland` causing `loginctl` to crash out and freezes up the laptop. The latter is a [known issue and a seemed to have been fixed](https://bugzilla.redhat.com/show_bug.cgi?id=2375328). I'll post updates on my [Mastodon account (@qlp@linh.social)](https://linh.social/@qlp) if the issue continues to happen.
 
 In contrast, the ThinkPad, which also runs the KDE Plasma edition of Fedora Workstation, that I use as my travel laptop rarely gets warm doing the same tasks even when setting power management to performance mode. Part of that is due to the version of the Intel Core processor it has, which has a lower maximum power draw than the AMD Ryzen processor in the Framework. Also, the ThinkPad also ramps up its fan a little bit more aggressively than the Framework.
+
+Another intermittent issue that I run into is graphical artifacting and flickering that occurs either at the SDDM login screen or logged in. The issue does not appear when booting using either Fedora's or other distros' live boot environments or when in the firmware menu. I'm guessing it is something between the AMD GPU kernel drivers, KDE Plasma and Wayland. Pinning and booting into a previous version of the kernel usually resolves the issue, but not always.
 
 When Fedora 43 is released, I plan on backing up my files on the Framework and doing a clean install to get a fresh start, especially when it comes to power management profiles.
 

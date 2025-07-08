@@ -138,6 +138,12 @@ main#page-content {
     font-size: 1.625rem;
   }
 
+  blockquote {
+    border-left: 1px solid;
+    margin-left: 0.5rem;
+    padding-left: 1rem;
+  }
+
   .pronouns {
     font-style: italic;
   }

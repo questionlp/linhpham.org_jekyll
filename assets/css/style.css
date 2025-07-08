@@ -12624,6 +12624,11 @@ main#page-content h2#name, main#page-content #name.h2 {
 main#page-content h3#tagline, main#page-content #tagline.h3 {
   font-size: 1.625rem;
 }
+main#page-content blockquote {
+  border-left: 1px solid;
+  margin-left: 0.5rem;
+  padding-left: 1rem;
+}
 main#page-content .pronouns {
   font-style: italic;
 }
