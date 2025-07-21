@@ -123,3 +123,11 @@ As I was finalizing and testing the changes to the [Graphs Site](https://graphs.
 I know, it probably won't drive anyone to click on the link and donate to NPR, but I wanted to show my support on top of donations to local and regional stations.
 
 For troubleshooting and debugging purposes, I have discreetly added the name of the node that rendered the page when hovering over the page render timestamp at the bottom of each page. This can be helpful when trying to find the source of intermittent issues and inconsistent behavior on load balanced servers where it works fine on some nodes but not others.
+
+## Release Changelogs
+
+For additional information about the changes included in each version of the Wait Wait Graphs Site, Reports Site and Stats Page, refer to the corresponding changelog files below:
+
+- [graphs.wwdt.me](https://github.com/questionlp/graphs.wwdt.me/blob/main/CHANGELOG.md)
+- [reports.wwdt.me](https://github.com/questionlp/reports.wwdt.me/blob/main/CHANGELOG.md)
+- [stats.wwdt.me](https://github.com/questionlp/stats.wwdt.me/blob/main/CHANGELOG.md)
