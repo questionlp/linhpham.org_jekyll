@@ -107,8 +107,6 @@ Considering the number of shows from January 2006 through September 2023, this w
 
 After that, I will start listening to shows from January 2000 up to the end of December 2006 to do the same and, more importantly, verify the data that I've collected for those shows.
 
-Outside of that, I don't have any immediate plans to add new features to the Wait Wait Stats Project sites.
-
 ## Release Notes
 
 For more information on the changes included in the new versions of the Wait Wait Stats Project Theme, Wait Wait Stats Page, Graphs Site and Reports Site, checkout out the release notes for each release:
