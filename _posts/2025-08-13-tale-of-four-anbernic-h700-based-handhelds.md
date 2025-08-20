@@ -2,7 +2,7 @@
 layout: post
 title:  "A Tale of Four Anbernic H700-based Handhelds"
 date:   2025-08-13 19:20:00 -0700
-tags:   video-games anbernic retroarch emulation
+tags:   video-games anbernic retroarch emulation rgxx h700
 ---
 
 Over the past couple of years, I have been building up a decent collection of handheld consoles that target software emulation of video games (and two that are FPGA-based that are built to virtually replicate/emulate original hardware). Four of those handhelds share two important characteristics: they are built by [Anbernic](https://anbernic.com/) and use the Allwinner A700 ARM-based system on a chip.
