@@ -30,7 +30,7 @@ If you are interested in following any of the podcast bot accounts that I've set
             <tr>
                 <td><a href="https://soundcloud.com/afterthesemessagesshow">After These Messages</a></td>
                 <td><a href="https://linh.social/@atm_podbot">@atm_podbot@linh.social</a></td>
-                <td>N/A</td>
+                <td><a href="https://bsky.app/profile/atm-podcast-bot.bsky.social">@atm-podcast-bot.bsky.social</a></td>
             </tr>
             <tr>
                 <td><a href="https://www.npr.org/podcasts/510384/how-to-do-everything">How To Do Everything</a></td>
@@ -45,7 +45,7 @@ If you are interested in following any of the podcast bot accounts that I've set
             <tr>
                 <td><a href="https://spotlesspod.com/">Spotless</a></td>
                 <td><a href="https://linh.social/@spotless_podbot">@spotless_podbot@linh.social</a></td>
-                <td>N/A</td>
+                <td><a href="https://bsky.app/profile/spotless-pod-bot.bsky.social">@spotless-pod-bot.bsky.social</a></td>
             </tr>
             <tr>
                 <td><a href="https://www.tbtl.net/">TBTL: Too Beautiful to Live</a></td>
