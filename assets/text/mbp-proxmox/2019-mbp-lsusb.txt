@@ -1,0 +1,12 @@
+Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+Bus 001 Device 002: ID 2109:2817 VIA Labs, Inc. USB2.0 Hub             
+Bus 001 Device 003: ID 413c:2113 Dell Computer Corp. KB216 Wired Keyboard
+Bus 001 Device 004: ID 291a:8338 Anker                   Anker USB-C Hub Device 
+Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+Bus 003 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+Bus 004 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+Bus 004 Device 002: ID 2109:0817 VIA Labs, Inc. USB3.0 Hub             
+Bus 004 Device 003: ID 04c5:2028 Fujitsu, Ltd iodd_ST400
+Bus 004 Device 004: ID 0bda:8153 Realtek Semiconductor Corp. RTL8153 Gigabit Ethernet Adapter
+Bus 005 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+Bus 006 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
