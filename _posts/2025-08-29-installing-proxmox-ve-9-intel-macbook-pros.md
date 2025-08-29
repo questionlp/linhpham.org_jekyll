@@ -178,7 +178,7 @@ I didn't have a lot of spare time to figure out why the network interface would 
 
 ## Next Steps
 
-Although I would love to be able to get both the 2016 and 2019 MacBook Pro laptops up and running with Proxmox VE, I have run out of spare time to troubleshoot the 2019 MBP. Since I have a spare USB hub with an integrated Gigabit Ethernet controller, I don't have to take it offline in order to work on the 2019 MBP.
+Although I would love to be able to get both the 2016 and 2019 MacBook Pro laptops up and running with Proxmox VE, I have run out of spare time to troubleshoot the 2019 MBP. Since I have a spare USB hub with an integrated Gigabit Ethernet controller, I don't have to take it offline in order to work on the 2019 MBP. I'll publish an update if I am able to resolve the network interface issues when Proxmox VE boots up.
 
 I am also entertaining the idea of installing [AlmaLinux](https://almalinux.org/) or [Rocky Linux](https://rockylinux.org/) on the 2019 MBP to see how usable it would be with the [Cockpit](https://cockpit-project.org/) web-based management interface. And, if I'm really feeling a little spicy, I might give [Arch Linux](https://archlinux.org/) or the new Arch-based hotness, [CachyOS](https://cachyos.org/), a try.
 
