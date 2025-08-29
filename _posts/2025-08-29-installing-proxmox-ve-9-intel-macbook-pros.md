@@ -184,7 +184,9 @@ I am also entertaining the idea of installing [AlmaLinux](https://almalinux.org/
 
 As for the 2016 MBP, I would like get a USB 2.5 Gigabit Ethernet controller that is well supported on Linux and either a USB 3.0 or a Thunderbolt 3 enclosure for an M.2 NVMe SSD. I have a spare 2 TB WD Black M.2 NVMe drive that I want to use as storage for virtual machines and containers. This will reduce the number of write cycles on the internal, soldered-on SSD storage. What will probably be the limiting factor for the 2016 MBP is the sixth-gen Core i7 processor along with the MBP's constrained thermal design. I'm just glad that the laptop isn't just collecting dust and, hopefully, extend its useful lifespan.
 
-In order to extend the life of the battery while running Proxmox VE, I will need to look at ways to cap the battery charge level by way of `tlp` or `upower`. There is a GitHub repo, [applesmc-next](https://github.com/c---/applesmc-next), that seems to provide a means of doing so, as the required controls are absent.
+In order to extend the life of the battery while running Proxmox VE, I will need to look at ways to cap the battery charge level by way of `tlp` or `upower`. Without that, the battery will charge up to and stay charged at around 100% of the usable capacity. That is not a good thing.
+
+I did find a GitHub repo, [applesmc-next](https://github.com/c---/applesmc-next), that seems to provide the required kernel module that exposes the required controls, specifically `/sys/class/power_supply/BAT0/charge_control_start_threshold` and `/sys/class/power_supply/BAT0/charge_control_end_threshold`. Unfortunately, the latest `linux-header` package for the PVE kernel is 6.12 and not 6.14.
 
 ## Additional Information
 
