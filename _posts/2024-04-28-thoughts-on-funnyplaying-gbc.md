@@ -2,7 +2,7 @@
 layout: post
 title:  "Thoughts on the FunnyPlaying GBC"
 date:   2024-04-28 14:30:00 -0800
-tags:   video-games game-boy fpgbc review
+tags:   video-games game-boy fpga fpgbc review
 ---
 
 Over the past couple of years, I have been collecting several handheld game consoles that run custom builds of Linux, EmulationStation, and RetroArch so that I can play games from various 8-bit, 16-bit, and early 32-bit consoles without being tied to a computer or TV.

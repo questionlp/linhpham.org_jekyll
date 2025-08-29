@@ -2,7 +2,7 @@
 layout: post
 title:  "Two Weeks with a Framework Laptop 16"
 date:   2024-07-04 19:30:00 -0700
-tags:   hardware laptops linux
+tags:   fedora framework-laptop hardware laptops linux
 ---
 
 As I write this, I have been using a Framework Laptop 16 as my daily driver laptop running Fedora instead of my usual [16-inch M1 Max MacBook Pro](https://support.apple.com/en-us/111901) running macOS. This post will go over the process of deciding on the Framework laptop and my experiences using it over the past two weeks.

@@ -2,7 +2,7 @@
 layout: post
 title:  "One Year With a Framework Laptop 16 and Fedora KDE Plasma Desktop"
 date:   2025-07-06 16:40:00 -0700
-tags:   linux hardware laptops
+tags:   fedora framework-laptop hardware laptops linux
 ---
 
 It has been a little over a year since I made the decision to migrate away from macOS to Linux as my primary operating system and placed an order for, then received, a Framework Laptop 16. I [wrote about my impressions two week in]({{ site.url }}{% post_url 2024-07-04-two-weeks-with-framework-laptop-16 %}) after install the [KDE Spin of Fedora Linux 40](https://fedoraproject.org/kde/) (which has since been [promoted to Fedora KDE Plasma Desktop](https://fedoramagazine.org/announcing-fedora-linux-42/)) and using it for two weeks.

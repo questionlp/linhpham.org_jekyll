@@ -2,7 +2,7 @@
 layout: post
 title:  "Laptop: Lenovo ThinkPad T14 Gen 3"
 date:   2023-11-27 18:35:00 -0800
-tags:   hardware linux laptops
+tags:   hardware laptops lenovo linux thinkpad
 ---
 
 I have a 16" M1 Max MacBook Pro for my daily driver laptop, and I have several laptops (including the two MacBook Pros I had as my daily drivers) that I keep around for backup, development testing, or if I need to run any software that requires Windows. While the MacBook Pro is smaller than some gaming laptops or mobile workstations, it is still too big to carry around when I want to be out and about. So, I was on a mission to find a (relatively) inexpensive secondary laptop.

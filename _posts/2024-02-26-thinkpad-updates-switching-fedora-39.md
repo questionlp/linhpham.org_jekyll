@@ -2,7 +2,7 @@
 layout: post
 title:  "ThinkPad Updates: Switching to Fedora 39"
 date:   2024-02-26 12:05:00 -0800
-tags:   fedora hardware laptops linux
+tags:   fedora hardware laptops lenovo linux thinkpad
 ---
 
 About a month ago, I picked up another ThinkPad T14 laptop as a sandbox for learning and experimenting with other Linux distros. The second T14 laptop is a Gen 2 with an AMD Ryzen processor that I upgraded to 48 GB of RAM and installed a 2 TB WD Black SN850X NVMe SSD to mirror the Gen 3 laptop. The first distro that I wanted to run was [Arch Linux](https://archlinux.org/). I would eventually switch to [KDE Plasma spin](https://fedoraproject.org/spins/kde/) of Fedora 39 to give [Fedora](https://fedoraproject.org/) another try after using Ubuntu and Debian for a while.

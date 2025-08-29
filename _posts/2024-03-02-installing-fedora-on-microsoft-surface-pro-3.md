@@ -2,7 +2,7 @@
 layout: post
 title:  "Installing Fedora on a Microsoft Surface Pro 3"
 date:   2024-03-02 20:40:00 -0800
-tags:   fedora hardware laptops linux
+tags:   fedora hardware laptops linux microsoft surface-pro tablets
 ---
 
 **Update:** The issue seems to have been resolved with the ISO images for the first beta varsion of Fedora 40. I was able to boot from the ISO image for the regular Fedora Workstation and for the KDE spin without modification. I did not have to disable either the TPM or the Secure Boot UEFI settings.

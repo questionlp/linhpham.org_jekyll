@@ -2,7 +2,7 @@
 layout: post
 title:  "Migrating from macOS to Fedora with a Framework Laptop 16"
 date:   2024-07-29 12:00:00 -0700
-tags:   linux hardware laptops
+tags:   fedora framework-laptop hardware laptops linux
 ---
 
 It has been several weeks since my "[Two Weeks with a Framework Laptop 16]({{ site.url }}{% post_url 2024-07-04-two-weeks-with-framework-laptop-16 %})" post, in which I wrote about getting a Framework laptop and provided my thoughts on the hardware side of the laptop.
