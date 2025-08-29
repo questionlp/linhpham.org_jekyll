@@ -184,6 +184,8 @@ I am also entertaining the idea of installing [AlmaLinux](https://almalinux.org/
 
 As for the 2016 MBP, I would like get a USB 2.5 Gigabit Ethernet controller that is well supported on Linux and either a USB 3.0 or a Thunderbolt 3 enclosure for an M.2 NVMe SSD. I have a spare 2 TB WD Black M.2 NVMe drive that I want to use as storage for virtual machines and containers. This will reduce the number of write cycles on the internal, soldered-on SSD storage. What will probably be the limiting factor for the 2016 MBP is the sixth-gen Core i7 processor along with the MBP's constrained thermal design. I'm just glad that the laptop isn't just collecting dust and, hopefully, extend its useful lifespan.
 
+In order to extend the life of the battery while running Proxmox VE, I will need to look at ways to cap the battery charge level by way of `tlp` or `upower`. There is a GitHub repo, [applesmc-next](https://github.com/c---/applesmc-next), that seems to provide a means of doing so, as the required controls are absent.
+
 ## Additional Information
 
 If you are interested in seeing what PCI and USB devices show up under Proxmox VE, I have posted the output of `lspci` and `lsusb` for both MacBook Pro laptops. Both laptops had a different Anker USB hub connected in order to have a network connection.
