@@ -176,6 +176,20 @@ Unfortunately, the network interfaces would not come back up after a reboot, nec
 
 I didn't have a lot of spare time to figure out why the network interface would not automatically come up on reboot and what was causing that pause during the boot process.
 
+## Extending Battery Life
+
+In order to extend the life of the battery while running Proxmox VE, I will need to look at ways to cap the battery charge level by way of `tlp` or `upower`. Without that, the battery will charge up to and stay charged at around 100% of the usable capacity. That is not a good thing.
+
+I found a GitHub repo, [applesmc-next](https://github.com/c---/applesmc-next), that provides the required kernel module that exposes the required control, specifically `/sys/class/power_supply/BAT0/charge_control_end_threshold`. Instead of installing the standard `linux-headers` metapackage in Proxmox VE 9, I had to install the `pve-headers` metapackage before I could build and install the module via DKMS.
+
+To set `/sys/class/power_supply/BAT0/charge_control_end_threshold` to 75 when Proxmox VE starts up, I added the following entry to root's crontab:
+
+```bash
+@reboot (sleep 60 && echo 75 | tee /sys/class/power_supply/BAT0/charge_control_end_threshold)
+```
+
+I still need to tests to make sure that everything is working properly.
+
 ## Next Steps
 
 Although I would love to be able to get both the 2016 and 2019 MacBook Pro laptops up and running with Proxmox VE, I have run out of spare time to troubleshoot the 2019 MBP. Since I have a spare USB hub with an integrated Gigabit Ethernet controller, I don't have to take it offline in order to work on the 2019 MBP. I'll publish an update if I am able to resolve the network interface issues when Proxmox VE boots up.
@@ -183,10 +197,6 @@ Although I would love to be able to get both the 2016 and 2019 MacBook Pro lapto
 I am also entertaining the idea of installing [AlmaLinux](https://almalinux.org/) or [Rocky Linux](https://rockylinux.org/) on the 2019 MBP to see how usable it would be with the [Cockpit](https://cockpit-project.org/) web-based management interface. And, if I'm really feeling a little spicy, I might give [Arch Linux](https://archlinux.org/) or the new Arch-based hotness, [CachyOS](https://cachyos.org/), a try.
 
 As for the 2016 MBP, I would like get a USB 2.5 Gigabit Ethernet controller that is well supported on Linux and either a USB 3.0 or a Thunderbolt 3 enclosure for an M.2 NVMe SSD. I have a spare 2 TB WD Black M.2 NVMe drive that I want to use as storage for virtual machines and containers. This will reduce the number of write cycles on the internal, soldered-on SSD storage. What will probably be the limiting factor for the 2016 MBP is the sixth-gen Core i7 processor along with the MBP's constrained thermal design. I'm just glad that the laptop isn't just collecting dust and, hopefully, extend its useful lifespan.
-
-In order to extend the life of the battery while running Proxmox VE, I will need to look at ways to cap the battery charge level by way of `tlp` or `upower`. Without that, the battery will charge up to and stay charged at around 100% of the usable capacity. That is not a good thing.
-
-I did find a GitHub repo, [applesmc-next](https://github.com/c---/applesmc-next), that seems to provide the required kernel module that exposes the required controls, specifically `/sys/class/power_supply/BAT0/charge_control_start_threshold` and `/sys/class/power_supply/BAT0/charge_control_end_threshold`. Unfortunately, the latest `linux-header` package for the PVE kernel is 6.12 and not 6.14.
 
 ## Additional Information
 
