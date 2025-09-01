@@ -11,6 +11,8 @@ In addition to aligning the segment names, I will be starting to re-listen to sh
 
 I started using semicolons as segment delimiters while listening and recording data for the shows that aired in 1998 and 1998. The change in segment delimiters will make it easier to split the segments out for each show and possibly normalizing or changing how they are presented.
 
+Previously, show descriptions would exclude segments like "Panel Round"/"Panel Questions" and "Lightning Fill In The Blank". Those will now be added in order for show descriptions to include all segments.
+
 The following are some of the updates to the segment naming that I will be making:
 
 * "Lightning Fill-in-the-Blank" will be updated to be "Lightning Fill In The Blank"
