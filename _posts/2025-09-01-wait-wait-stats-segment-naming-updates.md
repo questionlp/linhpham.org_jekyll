@@ -17,7 +17,7 @@ The following are some of the updates to the segment naming that I will be makin
 * "Panel Questions" will be updated to "Panel Round" where the segment name is called "Panel Round"
   * More recent shows use "Panel Questions" instead of "Panel Round". For those shows, the segment will be left as "Panel Questions"
   * For earlier shows where segments that follow the same format as the current "Panel Round" or "Panel Questions" segment were labeled as "Week in Review" will be listed as "Week in Review" to reflect NPR's naming convention
-  * If the first "Panel Round" is listed as "Opening Panel Round" on the NPR show page, the segment name will be updated accordingly
+  * If the first "Panel Round" is listed as "Opening Round" or "Opening Panel Round" on the NPR show page, the segment name will be updated accordingly
 
 These changes will hopefully make the Wait Wait Stats data more accurate and more aligned with how the show and NPR present the segments.
 
