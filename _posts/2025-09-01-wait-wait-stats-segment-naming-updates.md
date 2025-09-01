@@ -21,6 +21,8 @@ The following are some of the updates to the segment naming that I will be makin
   * For earlier shows where segments that follow the same format as the current "Panel Round" or "Panel Questions" segment were labeled as "Week in Review" will be listed as "Week in Review" to reflect NPR's naming convention
   * If the first "Panel Round" is listed as "Opening Round" or "Opening Panel Round" on the NPR show page, the segment name will be updated accordingly
 * Standardize on using "#2", "#3", etc. for multiple instances of the same segment within a specific show
+* Standardize on the term "segment" instead of "round" for show segments
+* Standardize on the term "round" for a panelist's round of questions during the Lightning Fill In The Blank segment
 * Topics for Bluff the Listener, Not My Job and Panelist Predictions segments will now be closer or matching the topic listed on the NPR show page, except where more clarity or corrections are required
 
 These changes will hopefully make the Wait Wait Stats data more accurate and more aligned with how the show and NPR present the segments.
