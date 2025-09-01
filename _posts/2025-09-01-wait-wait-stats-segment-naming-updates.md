@@ -22,6 +22,8 @@ The following are some of the updates to the segment naming that I will be makin
   * If the first "Panel Round" is listed as "Opening Round" or "Opening Panel Round" on the NPR show page, the segment name will be updated accordingly
 * Standardize on using "#2", "#3", etc. for multiple instances of the same segment within a specific show
 * Standardize on the term "segment" instead of "round" for show segments
+  * Note that the phrase "Lightning Round" is commonly used on the show to refer to the "Lightning Fill In The Blank" segment.
+  * While the preferred name for the segment will be "Lightning Fill In The Blank" going forward, various parts of the Wait Wait Stats Project libraries and sites will still have references to "Lightning Round". Those code references will not be changed as that is considered a major API breaking change.
 * Standardize on the term "round" for a panelist's round of questions during the Lightning Fill In The Blank segment
 * Topics for Bluff the Listener, Not My Job and Panelist Predictions segments will now be closer or matching the topic listed on the NPR show page, except where more clarity or corrections are required
 
