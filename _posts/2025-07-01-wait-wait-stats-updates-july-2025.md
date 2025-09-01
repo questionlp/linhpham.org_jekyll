@@ -31,7 +31,7 @@ First up, the "Not My Job vs Bluff the Listener Win Ratios" report has been rena
 
 I also created a Panelists "[First Appearances](https://reports.wwdt.me/panelists/first-appearances)" and a Panelists "[First Wins](https://reports.wwdt.me/panelists/first-wins)" reports. The new "First Apperances" report lists the first time a panelist has appeared on the show and how they performed on the show. By default, the report sorts the list by panelist name, but there is an option to sort the list by show date. The report provides additional information that isn't included in the "First and Most Recent Appearances" report.
 
-The new "First Wins" report lists the first time each panelist has won Lightning Fill-in-the-Blank outright by finishing in first place, or had their first overall win by coming in either first or tied for first. Panelists who have not yet win outright and have not yet had an overall win are not listed.
+The new "First Wins" report lists the first time each panelist has won Lightning Fill In The Blank outright by finishing in first place, or had their first overall win by coming in either first or tied for first. Panelists who have not yet win outright and have not yet had an overall win are not listed.
 
 The Panelists "[Appearance Counts by Year](https://reports.wwdt.me/panelists/appearance-counts-by-year)" report now includes Best Of, Repeat and Repeat Best Of columns and the Panelists "[Single Appearance](https://reports.wwdt.me/panelists/single-appearance)" report now includes Start and Correct columns.
 

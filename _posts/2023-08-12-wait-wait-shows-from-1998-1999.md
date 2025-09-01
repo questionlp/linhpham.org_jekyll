@@ -24,7 +24,7 @@ So far, I have listened to the first show that aired on January 3, 1998, with Da
     </figcaption>
 </figure>
 
-Instead of having a Lightning Fill-in-the-Blank round to close out the show, there is a Lightning True or False segment in which answering a question correctly earns a panelist a point while incorrectly answering a question deducts a point. The last segment of the show where a panelist can earn points is a quick essay where each panelist writes on a given topic, and Carl would grade their essay with up to 10 points. This can lead to panelists finishing the game with more than the typical 20-point ceiling. Though, that ceiling was broken by Roxanne Roberts several years ago.
+Instead of having a Lightning Fill In The Blank segment to close out the show, there is a Lightning True or False segment in which answering a question correctly earns a panelist a point while incorrectly answering a question deducts a point. The last segment of the show where a panelist can earn points is a quick essay where each panelist writes on a given topic, and Carl would grade their essay with up to 10 points. This can lead to panelists finishing the game with more than the typical 20-point ceiling. Though, that ceiling was broken by Roxanne Roberts several years ago.
 
 I am filling out a page in a [Field Notes memo book](https://fieldnotesbrand.com/products/original-kraft) with each show, as I do with any other show I have been taking notes for. I am still refining the formatting of the notes I will take for each show I will listen to.
 

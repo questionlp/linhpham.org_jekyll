@@ -48,7 +48,7 @@ Damian Lillard may have captured the audience during the Not My Job segment, but
     </figcaption>
 </figure>
 
-Another first for a Wait Wait show in Portland was how the Lightning Fill-in-the-Blank round concluded: all three panelists finished in a three-way tie with 12 points each. It was the first time Helen Hong had finished in a three-way tie, while it was Paula's fourth time and Luke's third time in a three-way tie. By the way, I have a report with shows where the [panelists finish the game in a three-way tie](https://reports.wwdt.me/shows/lightning-round-ending-three-way-tie).
+Another first for a Wait Wait show in Portland was how the Lightning Fill In The Blank segment concluded: all three panelists finished in a three-way tie with 12 points each. It was the first time Helen Hong had finished in a three-way tie, while it was Paula's fourth time and Luke's third time in a three-way tie. By the way, I have a report with shows where the [panelists finish the game in a three-way tie](https://reports.wwdt.me/shows/lightning-round-ending-three-way-tie).
 
 After recording the outro and Panelist Predictions, Paula had to leave to get on a flight for her next show. With most shows I have been to since 2011, I usually get a shout-out from Peter and have the spotlight on me for my 15 seconds of fame. With slightly mixed emotions, that didn't happen, but I did get to have a quick chat with Peter, Colin Miller, Lorna White, and Robert Neuhaus before heading out. Unfortunately, I didn't get to say hello to Helen or Luke (though I'm sure Luke sees me more than enough at [Live Wire](https://livewireradio.org/) tapings).
 

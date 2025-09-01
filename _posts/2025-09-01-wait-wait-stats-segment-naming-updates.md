@@ -15,7 +15,7 @@ Previously, show descriptions would exclude segments like "Panel Round"/"Panel Q
 
 The following are some of the updates to the segment naming that I will be making:
 
-* "Lightning Fill-in-the-Blank" will be updated to be "Lightning Fill In The Blank"
+* "Lightning Fill In The Blank" will be updated to be "Lightning Fill In The Blank"
 * "Panel Questions" will be updated to "Panel Round" where the segment name is called "Panel Round"
   * More recent shows use "Panel Questions" instead of "Panel Round". For those shows, the segment will be left as "Panel Questions"
   * For earlier shows where segments that follow the same format as the current "Panel Round" or "Panel Questions" segment were labeled as "Week in Review" will be listed as "Week in Review" to reflect NPR's naming convention

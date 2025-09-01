@@ -47,7 +47,7 @@ This was reminiscent of the last time I was in Seattle when issues with the phon
 
 The audience was ecstatic when Tom Papa announced that J. Kenji López-Alt would be the Not My Job guest, which carried over to the actual segment. Kenji had some assistance from the audience when answering the second and third quiz questions.
 
-Zipping forward to Lightning Fill-in-the-Blank, the audience cheered on Luke after Jessi and Shantira answered seven questions correctly. When it came to Luke's fifth question, the audience backed Luke when he answered the question with "curing his heartburn," while the answer was "to focus on his gut health," leading to Bill giving Luke credit. This helped lead Luke to a win with seven correct answers.
+Zipping forward to Lightning Fill In The Blank, the audience cheered on Luke after Jessi and Shantira answered seven questions correctly. When it came to Luke's fifth question, the audience backed Luke when he answered the question with "curing his heartburn," while the answer was "to focus on his gut health," leading to Bill giving Luke credit. This helped lead Luke to a win with seven correct answers.
 
 <div class="row">
     <div class="col col-lg-6">
