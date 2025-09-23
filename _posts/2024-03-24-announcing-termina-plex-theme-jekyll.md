@@ -5,6 +5,15 @@ date:   2024-03-24 19:50:00 -0800
 tags:   jekyll theme web-design
 ---
 
+<div class="alert alert-info">
+    <p>
+        Due to the hostile takeover by Ruby Central, I have requested my RubyGems account to be deleted along with all versions of "Termina Plex".
+    </p>
+    <p class="mb-0">
+        The theme can still be installed by referencing the GitHub repository as detailed at the end of this post.
+    </p>
+</div>
+
 Just a year ago (give or take a couple of months), I published a Jekyll theme named "Minima Plex." The theme extends the Minima theme and features the [IBM Plex](https://www.ibm.com/plex/) family of fonts.
 
 Although the theme has served me and this blog well, I started experimenting with migrating away from Jekyll to a different static site generator (including [11ty](https://www.11ty.dev), [Pelican](https://getpelican.com), and [Hugo](https://gohugo.io)). One of the themes I ran across for Hugo was [Nightfall](https://github.com/LordMathis/hugo-theme-nightfall/). I liked the minimal design, which took some inspiration from Unix and Unix-like shells and terminals. While I liked the theme, I could not say the same for Hugo.
@@ -101,13 +110,7 @@ Another feature I ported from Nightfall was the post metadata block that display
     </div>
 </div>
 
-The new theme also marks the first time I have published a package to [RubyGems](https://rubygems.org). To install the theme for your Jekyll installation from RubyGems, you can add the following to your blog's `Gemfile`:
-
-```ruby
-gem "termina-plex"
-```
-
-You can also install the theme from the [GitHub repository](https://github.com/questionlp/termina-plex) by adding the following:
+You can install the theme from the [GitHub repository](https://github.com/questionlp/termina-plex) by adding the following to your site's `Gemfile`:
 
 ```ruby
 gem "termina-plex", git: "https://github.com/questionlp/termina-plex.git"
