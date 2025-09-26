@@ -18,6 +18,7 @@ include:
 exclude:
   - LICENSE
   - README.md
+  - pagefind.yaml
   - _scss/
   - .sass-cache/
   - .jekyll-cache/
