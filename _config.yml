@@ -48,6 +48,7 @@ footer_links:
   - { name: "Bluesky", url: "https://bsky.app/profile/linh.social" }
   - { name: "Flickr", url: "https://www.flickr.com/people/questionlp/" }
   - { name: "GitHub", url: "https://github.com/questionlp" }
+  - { name: "Pixelfed", url: "https://pxl.linh.social/qlp" }
 
 nav_links:
   - { name: "About", url: "/about" }
