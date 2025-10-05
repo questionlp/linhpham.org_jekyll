@@ -1,0 +1,33 @@
+---
+layout: now
+title: "What I'm Doing Now"
+updated: 2025-10-05
+---
+
+This is my "[now page](https://nownownow.com/about)".
+
+## Where Am I?
+
+Living on the west side of the Portland, Oregon metropolitan area.
+
+## What Am I Working On?
+
+The following are projects, tasks or hobbies that I am working on:
+
+* I have been working on testing compatibility of MariaDB 11.8 and 12.x for the [Wait Wait Stats Project](https://stats.wwdt.me/)
+* Researching ORMs (object relational mappers) to use for the next major versions of the Wait Wait Stats Project applications and libraries
+
+## What Would I Like To Do Next?
+
+I have a couple of things that I would like to spend time doing or trying out:
+
+* Wipe and re-install macOS and Fedora Asahi Remix on my "old" M1 Max MacBook Pro
+* Give CachyOS a try on a spare laptop (Lenovo ThinkPad T14 Gen 2 AMD)
+* Replace the two Proxmox hosts running at home with something newer and more power efficient
+* Port this blog over to Eleventy from Jekyll
+
+## Version History
+
+The following is an archive of previous versions of this page.
+
+* **You are here.**

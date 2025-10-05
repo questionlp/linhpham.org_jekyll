@@ -53,6 +53,7 @@ nav_links:
   - { name: "About", url: "/about" }
   - { name: "Blog Posts", url: "/blog" }
   - { name: "Links", url: "/links" }
+  - { name: "Now", url: "/now" }
   - { name: "Projects", url: "/projects" }
 
 jekyll-archives:

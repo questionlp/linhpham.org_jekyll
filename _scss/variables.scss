@@ -23,6 +23,12 @@ $body-bg: ibm.$gray-10 !default;
 $body-color-dark: ibm.$gray-10 !default;
 $body-bg-dark: ibm.$gray-80 !default;
 
+// Increase overall line height
+$line-height-base: 1.6 !default;
+$line-height-sm: 1.4 !default;
+$line-height-lg: 1.8 !default;
+
+// Override colors use to IBM/Carbon Design colors
 $primary: ibm.$blue-60 !default;
 $secondary: ibm.$gray-60 !default;
 $success: ibm.$success !default;
