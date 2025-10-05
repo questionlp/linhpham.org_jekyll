@@ -28,6 +28,6 @@ I have a couple of things that I would like to spend time doing or trying out:
 
 ## Version History
 
-The following is an archive of previous versions of this page.
+The following is an archive of previous versions of this page:
 
 * **You are here.**
