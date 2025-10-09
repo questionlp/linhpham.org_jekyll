@@ -5,6 +5,8 @@ date:   2025-07-06 16:40:00 -0700
 tags:   fedora framework-laptop hardware laptops linux
 ---
 
+{% include framework-message.html %}
+
 It has been a little over a year since I made the decision to migrate away from macOS to Linux as my primary operating system and placed an order for, then received, a Framework Laptop 16. I [wrote about my impressions two week in]({{ site.url }}{% post_url 2024-07-04-two-weeks-with-framework-laptop-16 %}) after install the [KDE Spin of Fedora Linux 40](https://fedoraproject.org/kde/) (which has since been [promoted to Fedora KDE Plasma Desktop](https://fedoramagazine.org/announcing-fedora-linux-42/)) and using it for two weeks.
 
 Three weeks later, I had been using the Fedora almost full-time and only used macOS for iPhone-related tasks (such as: tranferring music and podcasts, making local backups of RAW photos that I take at shows and events, and using Lightroom Classic). On average, I spend less than 4 hours a month using the MacBook Pro while I am almost constantly on the Framework Laptop or my Lenovo ThinkPad T14 Gen 3 running Fedora.

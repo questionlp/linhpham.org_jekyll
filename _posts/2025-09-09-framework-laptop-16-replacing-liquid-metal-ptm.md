@@ -5,6 +5,8 @@ date:   2025-09-09 21:35:00 -0700
 tags:   framework-laptop hardware laptops
 ---
 
+{% include framework-message.html %}
+
 Although liquid metal is excellent as a thermal conductivity and can keep power hungry processors and other chips relatively cool, it definitely has its problems. Liquid metal is electrically conductive and can pump out and escape out of its containment over time due to thermal cycling.
 
 Framework initially used liquid metal for the Framework Laptop 16 in order to cool the AMD Ryzen 7040 series of mobile processors while keeping the laptop relatively thin. Unfortunately, the aforementioned liquid metal pumping out of the containment area became an issue and [Framework switched over to using the Honeywell PTM7958](https://frame.work/blog/framework-laptop-16-deep-dive---liquid-metal) thermal interface. They also provided existing owners of Laptop 16 owners the option to get a free PTM kit.
