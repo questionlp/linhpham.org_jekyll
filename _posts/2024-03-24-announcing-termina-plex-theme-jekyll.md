@@ -7,7 +7,7 @@ tags:   jekyll theme web-design
 
 <div class="alert alert-info">
     <p>
-        Due to the hostile takeover by Ruby Central, I have requested my RubyGems account to be deleted along with all published versions of "Termina Plex".
+        Due to the hostile takeover by Ruby Central, I have both the "Termina Plex" gem and my RubyGems account have been deleted.
     </p>
     <p class="mb-0">
         The theme can still be installed by referencing the GitHub repository as detailed at the end of this post.
