@@ -10,7 +10,7 @@ This is my "[now page](https://nownownow.com/about)".
 
 Living on the west side of the Portland, Oregon metropolitan area.
 
-## What I Had Been Working?
+## What I Had Been Working On?
 
 The following are stuff that I recently finished working on:
 
