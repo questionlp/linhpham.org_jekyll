@@ -14,7 +14,7 @@ Living on the west side of the Portland, Oregon metropolitan area.
 
 The following are stuff that I recently finished working on:
 
-* Upgrading my self-hosted Umami Analytics instance from version 2 to 3
+* Upgrading my self-hosted [Umami Analytics](https://github.com/umami-software/umami) instance from version 2 to 3
   * Included migrating the database from MySQL to PostgreSQL
   * The database migration was not as simple as what their [database migration page](https://umami.is/docs/guides/migrate-mysql-postgresql) would lead you to believe
   * I [submitted a suggestion](https://github.com/umami-software/umami/discussions/3708) for an official migration script, or at least update their official docs
