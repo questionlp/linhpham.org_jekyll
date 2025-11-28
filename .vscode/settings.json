@@ -2,6 +2,6 @@
   "editor.formatOnSave": true,
   "editor.formatOnSaveMode": "modificationsIfAvailable",
   "files.associations": {
-    "*.html": "liquid"
+    "*.html": "html"
   }
 }
