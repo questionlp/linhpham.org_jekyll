@@ -41,7 +41,7 @@ favicon_png: "/favicon.png"
 favicon_svg: "/favicon.svg"
 
 date_format: "%d %b %Y"
-date_format_long: "%d %B %Y %H:%M %Z"
+date_format_long: "%d %B %Y %H:%M"
 
 footer_links:
   - { name: "Mastodon", url: "https://linh.social/@qlp", rel: "me" }
