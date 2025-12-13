@@ -21,6 +21,13 @@
                                 {{ page.date | date: site.date_format_long }}
                             </time>
                         </div>
+                        {%- elsif page.updated -%}
+                        <div class="d-md-inline me-5">
+                            <i class="bi bi-clock me-2" title="Updated"></i><span class="d-none">Updated</span>
+                            <time datetime="{{ page.updated | date: '%F %T%z' }}">
+                                {{ page.updated | date: site.date_format_long }}
+                            </time>
+                        </div>
                         {%- endif %}
                         {%- if page.tags and page.tags.size > 0 -%}
                         <div class="d-md-inline tags-list" data-pagefind-ignore>

@@ -1,5 +1,5 @@
 ---
-layout: now
+layout: post
 title: "What I'm Doing Now"
 updated: 2025-11-28 11:00:00 -0800
 ---
@@ -14,24 +14,24 @@ Living on the west side of the Portland, Oregon metropolitan area.
 
 The following are stuff that I recently finished working on:
 
-* Upgrading the Ubuntu Server install on my personal Plex media server to 24.04 LTS
-* Re-installed macOS on my Late 2016 15-inch Apple MacBook Pro after experimenting with Proxmox VE 9
+* *Nothing at this time*
 
 ## What Am I Working On?
 
-The following are projects, tasks or hobbies that I am working on:
+The following are projects, tasks or hobbies that I am currently working on:
 
-* Getting ready to create the 2025 edition of [Wait Wait Stats Wrapped](https://flickr.com/photos/questionlp/albums/72177720322647930/)
-* Researching ORMs (object relational mappers) to use for the next major versions of the Wait Wait Stats Project applications and libraries
-* Researching the process to potentially migrate the Wait Wait Stats Project from MySQL or MariaDB to PostgreSQL
+* Updating the presentation and scripts for the 2025 edition of [Wait Wait Stats Wrapped](https://github.com/questionlp/wait-wait-stats-wrapped) ([mirrored on Codeberg](https://codeberg.org/qlp/wait-wait-stats-wrapped))
 
 ## What Would I Like To Do Next?
 
 I have a couple of things that I would like to spend time doing or trying out, in no particular order:
 
-* Stand up a Forgejo instance as an option to migrate from GitHub
-  * I considered migrating to Codeberg, but not all of my repositories and projects are free/open source and I would still need an instance for non-public repositories
-* Give CachyOS a try on a spare laptop (Lenovo ThinkPad T14 Gen 2 AMD)
+* Stand up a private Forgejo instance as an option to migrate private repositories hosted on GitHub
+* Start migrating some of my project repositories from GitHub to Codeberg
+* Researching ORMs (object relational mappers) to use for the next major versions of the Wait Wait Stats Project applications and libraries
+* Researching the process to potentially migrate the Wait Wait Stats Project from MySQL or MariaDB to PostgreSQL
+* Install the COSMIC spin of Fedora on a spare laptop (Lenovo ThinkPad T14 Gen 2 AMD)
+* Determine a use for my Microsoft Surface Pro 3, which has collecting dust
 * Replace the two Proxmox hosts running at home with something newer and more power efficient
 * Port this blog over to Eleventy from Jekyll
 
@@ -39,6 +39,7 @@ I have a couple of things that I would like to spend time doing or trying out, i
 
 The following is an archive of previous versions of this page:
 
+* [2025-11-28]({{ site_url }}/now/2025-11-28)
 * [2025-11-11]({{ site_url }}/now/2025-11-11)
 * [2025-11-01]({{ site_url }}/now/2025-11-01)
 * [2025-10-09]({{ site_url }}/now/2025-10-09)

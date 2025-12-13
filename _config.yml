@@ -46,6 +46,7 @@ date_format_long: "%d %B %Y %H:%M"
 footer_links:
   - { name: "Mastodon", url: "https://linh.social/@qlp", rel: "me" }
   - { name: "Bluesky", url: "https://bsky.app/profile/linh.social" }
+  - { name: "Codeberg", url: "https://codeberg.org/qlp" }
   - { name: "Flickr", url: "https://www.flickr.com/people/questionlp/" }
   - { name: "GitHub", url: "https://github.com/questionlp" }
   - { name: "Pixelfed", url: "https://pxl.linh.social/qlp" }
