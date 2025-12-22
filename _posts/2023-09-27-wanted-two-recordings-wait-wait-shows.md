@@ -2,7 +2,7 @@
 layout: post
 title:  "Wanted: Recordings for Two Wait Wait Don't Tell Me Shows"
 date:   2023-09-27 20:25:00 -0700
-tags:   waitwait update
+tags:   stats waitwait update
 ---
 
 Over the past two months, I have received the recordings for the [Wait Wait Don't Tell Me!](https://waitwait.npr.org/) shows aired in 1998 and 1999 from the [Special Collections](https://www.lib.umd.edu/collections/special) at the [University of Maryland](https://umd.edu/). There was one recording they had listed for Wait Wait for May 23, 1998, but the program had been preempted by an airing of "Rock & Roll America."

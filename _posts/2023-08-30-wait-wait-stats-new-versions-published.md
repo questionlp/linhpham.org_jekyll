@@ -2,7 +2,7 @@
 layout: post
 title:  "Wait Wait Stats: New Versions Published"
 date:   2023-08-30 20:40:00 -0700
-tags:   waitwait update
+tags:   stats waitwait update
 ---
 
 As a follow-up to my [last blog post]({{ site.url }}{% post_url 2023-08-28-wait-wait-stats-update-decimal-scores %}), I have published the latest versions of the Wait Wait Stats applications and API to production. The [wwdtm](https://github.com/questionlp/wwdtm) package has also been published to [PyPI](https://pypi.org/project/wwdtm/), and [docs.wwdt.me](https://docs.wwdt.me/) has been updated with docs for the new version.

@@ -2,7 +2,7 @@
 layout: post
 title:  "Wait Wait Stats Updates: May 2023 Part Two"
 date:   2023-05-27 22:00:00 -0700
-tags:   waitwait update
+tags:   stats waitwait update
 ---
 
 In the past couple of weeks, I have been working on a few updates to the [Wait Wait Stats Page](https://stats.wwdt.me/), [Wait Wait Reports Site](https://reports.wwdt.me/), and the [Wait Wait Graphs Site](https://graphs.wwdt.me/).

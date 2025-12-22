@@ -2,12 +2,12 @@
 layout: post
 title:  "Wait Wait Stats Updates: May 2025"
 date:   2025-05-25 19:40:00 -0700
-tags:   waitwait update
+tags:   stats waitwait update
 ---
 
 In the past few months, I have published a series of updates to each of the Wait Wait Stats Project sites and to the Stats API. While some of the updates have been more behind-the-scenes updates, but there are also a few new features that I wanted to highlight.
 
-## Wait Wait Stats Library
+### Wait Wait Stats Library
 
 Since the [last update to the Stats Library in February]({{ site.url }}{% post_url 2025-02-02-wait-wait-stats-updates-adding-more-randomness %}), I have added several new methods to retrieve show counts for regular, Best Of, repeat, repeat Best Of and a total for each year.
 
@@ -15,7 +15,7 @@ Also included in the latest version of the [Stats Library](https://github.com/qu
 
 Documentation for the new methods are available in the in the [Wait Wait Stats Library documentation site](https://docs.wwdt.me/latest/) hosted on [Read the Docs](https://about.readthedocs.com/?ref=app.readthedocs.com).
 
-## Wait Wait Stats Project Theme
+### Wait Wait Stats Project Theme
 
 When I migrated the [Wait Wait Graphs Site](https://graphs.wwdt.me/), [Wait Wait Reports Site](https://reports.wwdt.me/) and the [Wait Wait Stats Page](https://stats.wwdt.me/) to use the [Bootstrap](https://getbootstrap.com/) frontend toolkit from Materialize (or Pure CSS for the Reports Site), I made some significant changes to the variables and custom styles as overrides to the corresponding Bootstrap files. Unfortunately, that made upgrading from one version of Bootstrap to another a lot more complicated and lead to some breaking changes.
 
@@ -29,7 +29,7 @@ While it did require a lot of work and testing to make sure the functionality of
 
 The new theme is now based on Bootstrap 5.3.6 and [Bootstrap Icons](https://icons.getbootstrap.com/) 1.13.1.
 
-## Wait Wait Graphs and Reports Sites
+### Wait Wait Graphs and Reports Sites
 
 With the new version of the Wait Wait Stats Project Theme completed, I migrated both the Graphs and Reports sites to use the new theme and published new versions of both sites.
 
@@ -45,7 +45,7 @@ Both sites also received a few minor updates, including:
 
 The Graphs Site has also been updated to use version 2.18.2 of the Wait Wait Stats Library.
 
-## Wait Wait Stats API
+### Wait Wait Stats API
 
 The [Wait Wait Stats API](https://api.wwdt.me/) also received updates to include new endpoints that correspond to the new methods that were added to the latest version of the Wait Wait Stats Library, version 2.18.2. By default, the endpoints include and set the `inclusive` flag to `true`, matching that of the Wait Wait Stats Library.
 
@@ -58,7 +58,7 @@ The Stats API also received behind the scenes changes, including:
 - Adding missing tests to three recently added endpoints
 - Adding tests to check if endpoints are returning 404 properly when requesting data with no matching values
 
-## Wait Wait Stats Page
+### Wait Wait Stats Page
 
 As with the Wait Wait Graphs and Reports Sites, the [Wait Wait Stats Page](https://stats.wwdt.me/) was also updated to use version 2 of the Wait Wait Stats Theme package and received several new features and updates.
 
@@ -76,13 +76,13 @@ The Stats Page has also had some of its dependencies updated, including:
   - pytest now at version 8.3.5
   - pytest-cov now at version 6.1.1
 
-## Server Infrastructure Changes
+### Server Infrastructure Changes
 
 Over the next couple of weeks, I will be making a couple of changes to the servers that host and serve up the Wait Wait Stats Project. The purpose of the change is to optimize the overall hosting costs and to remove another third-party dependency.
 
 There may be some short periods of time when the sites may not be accessible as some of the changes are implemented and services are migrated.
 
-## Links
+### Links
 
 - [Wait Wait Stats Library Changes](https://docs.wwdt.me/latest/changes/index.html)
 - [Wait Wait Stats API Releases and Changes](https://github.com/questionlp/api.wwdt.me_v2/releases)

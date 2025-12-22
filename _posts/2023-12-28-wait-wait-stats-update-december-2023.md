@@ -2,7 +2,7 @@
 layout: post
 title:  "Wait Wait Stats Updates: December 2023"
 date:   2023-12-28 17:45:00 -0800
-tags:   waitwait update
+tags:   stats waitwait update
 ---
 
 In the past month since my last Wait Wait Stats Update post, I have finished listening through all of the 1998 shows, of which I have audio recordings. I entered the data into the database using the notes I had written down for those shows. However, I ran into a slight problem: the Wait Stats Database needed to be updated to store Bluff the Listener-like segment numbers to the chosen and correct stories.

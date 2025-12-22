@@ -11,7 +11,7 @@ Over the past couple of months, I have been toying with installing a Linux distr
 
 That's when I had the idea of turning the 2016 MBP (and the 2019 MBP) into a server, specifically, as a virtualization host using [Proxmox VE](https://www.proxmox.com/en/products/proxmox-virtual-environment/overview) 9.0. I'm already using Proxmox VE on a pair of desktop computers turned servers and I wanted a system to try out the new version. I've documented my experience with installing Proxmox VE on both MBP laptops and issues that I ran across in doing so.
 
-## Late 2016 MacBook Pro
+### Late 2016 MacBook Pro
 
 The [15-inch Late 2016 MacBook Pro](https://support.apple.com/en-us/111975) (identifiers: [MacBookPro13,3 / A1707](https://everymac.com/systems/apple/macbook_pro/specs/macbook-pro-core-i7-2.7-15-late-2016-retina-display-touch-bar-specs.html)) has a quad-core [Intel Core i7-6820HQ processor](https://www.intel.com/content/www/us/en/products/sku/88970/intel-core-i76820hq-processor-8m-cache-up-to-3-60-ghz/specifications.html), 16 GB of RAM, 1 TB of storage, a Radeon Pro 455 dedicated GPU, the infamous butterfly switch keyboard, and a Touch Bar. I previously used this laptop as my main laptop for development, editing photos and images, and other usual tasks before replacing it with the 2019 MBP.
 
@@ -89,7 +89,7 @@ For grins and giggles, I tried to passthrough the dedicated AMD Radeon Pro GPU t
 
 The 2016 MBP was *not* going to break any performance records and would not perform nearly as well as my other two Proxmox VE servers, in part to the older generation Intel Core processor and in part to Apple's decision to make the laptop thin at the great expense to thermals. At idle, the core temperatures will sit around 60 degrees C and spiking up to around 70-75 degrees C under lighter loads with the CPU scaling governor set to `powersave`. When running a stress test in the Debian 13 virtual machine, most of the core temperatures spiked to 90-93 degrees C no matter if the governor was set to `powersave` or `performance`.
 
-## 2019 MacBook Pro
+### 2019 MacBook Pro
 
 Even with the successful installation and use of Proxmox VE 9 on the 2016 MBP, I was quite pessimistic when it came to the [16-inch 2019 MacBook Pro](https://support.apple.com/en-us/111932) (identifiers: [MacBookPro16,1 / A2141](https://everymac.com/systems/apple/macbook_pro/specs/macbook-pro-core-i9-2.3-eight-core-16-2019-scissor-specs.html)). I knew going in that the Apple computers with the [Apple T2](https://en.wikipedia.org/wiki/Apple_T2) security chip could cause additional headaches.
 
@@ -176,7 +176,7 @@ Unfortunately, the network interfaces would not come back up after a reboot, nec
 
 I didn't have a lot of spare time to figure out why the network interface would not automatically come up on reboot and what was causing that pause during the boot process.
 
-## Extending Battery Life
+### Extending Battery Life
 
 In order to extend the life of the battery while running Proxmox VE, I will need to look at ways to cap the battery charge level by way of `tlp` or `upower`. Without that, the battery will charge up to and stay charged at around 100% of the usable capacity. That is not a good thing.
 
@@ -190,7 +190,7 @@ To set `/sys/class/power_supply/BAT0/charge_control_end_threshold` to 75 when Pr
 
 I still need to tests to make sure that everything is working properly.
 
-## Next Steps
+### Next Steps
 
 Although I would love to be able to get both the 2016 and 2019 MacBook Pro laptops up and running with Proxmox VE, I have run out of spare time to troubleshoot the 2019 MBP. Since I have a spare USB hub with an integrated Gigabit Ethernet controller, I don't have to take it offline in order to work on the 2019 MBP. I'll publish an update if I am able to resolve the network interface issues when Proxmox VE boots up.
 
@@ -198,7 +198,7 @@ I am also entertaining the idea of installing [AlmaLinux](https://almalinux.org/
 
 As for the 2016 MBP, I would like get a USB 2.5 Gigabit Ethernet controller that is well supported on Linux and either a USB 3.0 or a Thunderbolt 3 enclosure for an M.2 NVMe SSD. I have a spare 2 TB WD Black M.2 NVMe drive that I want to use as storage for virtual machines and containers. This will reduce the number of write cycles on the internal, soldered-on SSD storage. What will probably be the limiting factor for the 2016 MBP is the sixth-gen Core i7 processor along with the MBP's constrained thermal design. I'm just glad that the laptop isn't just collecting dust and, hopefully, extend its useful lifespan.
 
-## Additional Information
+### Additional Information
 
 If you are interested in seeing what PCI and USB devices show up under Proxmox VE, I have posted the output of `lspci` and `lsusb` for both MacBook Pro laptops. Both laptops had a different Anker USB hub connected in order to have a network connection.
 

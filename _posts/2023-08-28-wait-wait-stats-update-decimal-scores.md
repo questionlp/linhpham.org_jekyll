@@ -2,7 +2,7 @@
 layout: post
 title:  "Wait Wait Stats Updates: Decimal Scores"
 date:   2023-08-28 21:30:00 -0700
-tags:   waitwait update
+tags:   stats waitwait update
 ---
 
 Since publishing the "[Wait Wait Shows From 1998 to 1999]({{ site.url }}{% post_url 2023-08-12-wait-wait-shows-from-1998-1999 %})" blog post, I have listened to the [Wait Wait Don't Tell Me!](https://waitwait.npr.org/) shows that aired from January 1998 through April 1998. While listening to those shows, I was surprised that panelists could receive half points during various segments. This forced me to think of what changes I would need to create in the various Wait Wait Stats applications and the Stats database.

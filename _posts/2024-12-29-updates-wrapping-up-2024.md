@@ -2,7 +2,7 @@
 layout: post
 title:  "Updates: Wrapping Up 2024"
 date:   2024-12-29 18:05:00 -0800
-tags:   linux laptops update waitwait
+tags:   linux laptops update stats waitwait
 ---
 
 With 2024 coming to a close, I wanted to provide a couple of updates from the past couple of months from the Wait Wait Stats Project and my continuing adventure into daily driving Linux.

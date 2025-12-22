@@ -2,7 +2,7 @@
 layout: post
 title:  "Wait Wait Stats Updates: April 2024"
 date:   2024-04-24 22:10:00 -0800
-tags:   waitwait update
+tags:   stats waitwait update
 ---
 
 While it's been a few months since I last shared a Wait Wait Stats development update, I've worked on several new features.

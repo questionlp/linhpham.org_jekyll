@@ -2,7 +2,7 @@
 layout: post
 title:  "Announcing Wait Wait Reports Site Version 3!"
 date:   2024-11-02 18:45:00 -0700
-tags:   waitwait update
+tags:   stats waitwait update
 ---
 
 Earlier this year, I migrated the [Wait Wait Stats Page](https://stats.wwdt.me) and the [Wait Wait Graphs Site](https://graphs.wwdt.me) from the Materialize frontend toolkit to the Bootstrap frontend toolkit. Today, I announce that the [Wait Wait Reports Site](https://reports.wwdt.me) version 3 has been released and uses Bootstrap.

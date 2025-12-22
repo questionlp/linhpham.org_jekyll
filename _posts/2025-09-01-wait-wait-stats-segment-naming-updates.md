@@ -2,7 +2,7 @@
 layout: post
 title:  "Wait Wait Stats: Segment Naming Updates"
 date:   2025-09-01 10:45:00 -0700
-tags:   waitwait update
+tags:   stats waitwait update
 ---
 
 I will be working on updating and aligning the segment names in show descriptions that I have entered in for each [Wait Wait... Don't Tell Me!](https://waitwait.npr.org/) show to match the naming convention used by NPR and the show.

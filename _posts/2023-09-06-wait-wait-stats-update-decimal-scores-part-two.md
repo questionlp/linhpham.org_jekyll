@@ -2,7 +2,7 @@
 layout: post
 title:  "Wait Wait Stats Updates: Decimal Scores Part Two"
 date:   2023-09-06 20:00:00 -0700
-tags:   waitwait update
+tags:   stats waitwait update
 ---
 
 While I continue to listen to the Wait Wait... Don't Tell Me! shows that aired in 1998, I ran across an episode where panelists would start the, then relatively now, Lightning Fill In The Blank segment with half-points. Since I didn't account for that when I went through updating the `wwdtm` library and all of the Wait Wait Stats-related sites, I had to go back and make additional changes.

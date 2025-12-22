@@ -15,7 +15,7 @@ In the "[Migrating from macOS to Fedora with a Framework Laptop 16]({{ site.url 
 
 In this blog post, I just wanted to provide an update on my experiences thus far using Fedora on the Framework Laptop for the past year.
 
-## Stable, For the Most Part
+### Stable, For the Most Part
 
 When I decided to choose Fedora as my primary Linux distribution on my laptops, I knew going in that there will be some teething pains by using a more leading edge distro compared to a distro with a stable or LTS release cycle (such as Debian or Ubuntu). Fedora adopts newer versions of the Linux kernel, applications and libraries at a pretty quick pace, albeit not as fast as distros that follow a bleeding edge rolling release cycle like Arch Linux.
 
@@ -35,7 +35,7 @@ Another intermittent issue that I run into is graphical artifacting and flickeri
 
 When Fedora 43 is released, I plan on backing up my files on the Framework and doing a clean install to get a fresh start, especially when it comes to power management profiles.
 
-## Small Hardware Updates
+### Small Hardware Updates
 
 Outside of the issue that I mentioned in the first Framework Laptop 16 blog post where the USB Type-C charging cable was not working, I haven't had any other hardware issues since. I bought a set of USB Type-C expansion cards in lavender to match the spacers and screen bezel, as well as the full-sized SD card reader.
 
@@ -49,7 +49,7 @@ After ordering and receiving the new module, the process to swap out the old mod
 
 In terms of image quality, there was a tiny bit of improvement in overall sharpness with decent lighting, but it did better in poorer lightning conditions. While it probably wasn't worth the cost to upgrade, given the little amount that I use the webcam in general, but the small bump in image quality was still nice to have.
 
-## App Gaps? Nah
+### App Gaps? Nah
 
 Also mentioned in the "Migrating from macOS" blog post, I had settled into a good place with using [LibreOffice](https://www.libreoffice.org/) and [Nextcloud](https://nextcloud.com/) in place of either Microsoft Office or Apple iWork suite and Dropbox for file syncing.
 
@@ -59,7 +59,7 @@ I haven't missed Adobe Photoshop for image editing or Adobe Illustrator for vect
 
 After a year, I don't have any yearnings of using applications and programs that I had been using solely on macOS that I cannot use on Linux. I've started to learn the magical incantations that are FFmpeg command-line arguments for transcoding media files instead of using something like Rogue Amoeba's [Fission](https://rogueamoeba.com/fission/). I still need to learn how to capture and record audio output from one application into another without somewhat brute-forcing it with OBS Studio or find a tool that is more similar to Rogue Amoeba's [Audio Hijack](https://rogueamoeba.com/audiohijack/).
 
-## If I Could Turn Back Time Machine
+### If I Could Turn Back Time Machine
 
 When I was using macOS, I used the included Time Machine program to backup the whole drive out to a pair of Samsung T7 USB solid state drives. When I was looking for backup options for my Linux laptops, I looked at [Timeshift](https://github.com/linuxmint/timeshift) from the [Linux Mint project](https://linuxmint.com/) and [BorgBackup](https://www.borgbackup.org/), also known as Borg.
 
@@ -71,7 +71,7 @@ I selected two of the four Samsung T7 SSDs that I had been using on the Raspberr
 
 Although I passed on Timeshift to backup my personal files, it's still an option to provide snapshots of the system in case a system upgrade goes sideways. Another option would be to use a BTRFS snapshot management tool to create those snapshots myself.
 
-## Forward Looking
+### Forward Looking
 
 I am looking forward to continue to my journey with daily driving the Framework Laptop 16 and Fedora and am interested in seeing what motherboard upgrade options Framework will make available for it in the future.
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "Wait Wait Stats Infrastructure Updates"
 date:   2023-01-22 21:00:00 -0700
-tags:   waitwait infrastructure
+tags:   stats waitwait infrastructure
 ---
 
 Up through today, the infrastructure that hosts the Wait Wait Stats Page and its related sites is made up of 6 servers running on [DigitalOcean](https://www.digitalocean.com/?refcode=511267eeda51&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge") (referral link):

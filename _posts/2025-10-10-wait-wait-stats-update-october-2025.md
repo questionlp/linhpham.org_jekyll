@@ -2,7 +2,7 @@
 layout: post
 title:  "Wait Wait Stats Updates: October 2025"
 date:   2025-10-10 21:20:00 -0700
-tags:   waitwait update
+tags:   stats waitwait update
 ---
 
 It's been almost three months since the last major [Wait Wait Stats Updates]({{ site.url }}{% post_url 2025-07-20-wait-wait-stats-updates-july-2025-part-two %}) post from July 2025 and there have been a couple of updates to the project.

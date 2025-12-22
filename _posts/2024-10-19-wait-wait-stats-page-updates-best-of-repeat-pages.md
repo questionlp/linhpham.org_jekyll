@@ -3,7 +3,7 @@ layout: post
 title:  "Wait Wait Stats Library and Page Updates: Best Of and Repeat Shows"
 date: 2024-10-19 21:30:00 -0700
 updated: 2024-10-20 17:45:00 -0700
-tags: waitwait update
+tags: stats waitwait update
 ---
 
 Version 2.13.0 of the [Wait Wait Stats Library](https://github.com/questionlp/wwdtm) has been published, and it includes new show methods for retrieving show information and details for Best Of, Repeat, and Best Of Repeat shows.

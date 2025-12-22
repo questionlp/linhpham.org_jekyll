@@ -9,11 +9,11 @@ Over the years, I have gone from hosting websites and applications over a DSL co
 
 I'll cover what and how I have replaced those services to regain more control over my web presence and limit (or even eliminate) the amount of information that gets handed over to large corporations. It also fits with the ethos of a decentralized and independent web and while having the benefit of not being impacted by outages caused by AWS, Cloudflare, and other large cloud service outages.
 
-## Starting with Small Steps
+### Starting with Small Steps
 
 One of the first things I did to take back control of some of my websites was to migrate them from being hosted via GitHub Pages to being served on a small Debian server instance that runs the NGINX web server. Some of the control that I wanted to regain was further customizing the static sites that I generate using either [Jekyll](https://jekyllrb.com/) or [Eleventy](https://www.11ty.dev/), being able to configure redirects and rules in NGINX, and provide a potential out if I chose to migrate most or all of my repositories away from GitHub.
 
-## Dropping Cloudflare
+### Dropping Cloudflare
 
 In order to prevent malicious and bot traffic from flooding the Wait Wait Stats Project and other sites that I run, I used Cloudflare's web application firewall, caching and HTTPS tunneling services. The caching services also helped reduce the amount of traffic and load on the web servers for static content such as CSS files and images.
 
@@ -25,7 +25,7 @@ For the Wait Wait Stats Project sites, I stood up an NGINX caching reverse proxy
 
 If I wanted to reduce the chances of AI bots from pummeling my web servers, I could deploy NGINX rules and `robots.txt` files provided by [ai.robots.txt](https://github.com/ai-robots-txt/ai.robots.txt). The one change that I make to the NGINX rules is to replace the [HTTP 403](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status/403) response code to an [HTTP 418](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status/418) response code just for fun.
 
-## Hosting Web Fonts
+### Hosting Web Fonts
 
 Up until recent versions of the Wait Wait Stats Project sites and several of my personal sites would link to the [IBM Plex](https://www.ibm.com/plex/) web fonts hosted by Google Fonts since it was convenient and I hadn't started using NPM to pull in, bundle and deploy [Bootstrap](https://getbootstrap.com/) files. When I started using building the sites using Bootstrap, I started including the [IBM Plex Mono](https://www.npmjs.com/package/@ibm/plex-mono) and [Plex Sans](https://www.npmjs.com/package/@ibm/plex-sans) NPM packages in my projects and use NPM to deploy the files to the appropriate location.
 
@@ -33,7 +33,7 @@ Making the process easier, the IBM Plex NPM packages include SCSS (Sassy CSS) fi
 
 For [Bootstrap Icons](https://icons.getbootstrap.com/), I included the NPM package with my project and created a script that copies the required files into the appropriate static files directory and include the `bootstrap-icons.css` file as necessary.
 
-## Replacing Google Analytics
+### Replacing Google Analytics
 
 Although I used to use web log analyzers in the past to see what kind of traffic my sites were getting and where they were coming from, I decided to switch to Google Analytics some time ago. While I did appreciate the visibility that they provided, I felt more and more uncomfortable with handing over information over to Google via their tracking cookies and scripts. So, I started to look at alternatives that did not require the use of cookies and could be deployed as a lightweight service.
 
@@ -62,6 +62,6 @@ The only hitch that I ran into when upgrading from Umami v2 to v3 was migrating 
 
 Eventually, I had to use JetBrains DataGrip to import data for the problematic tables and ran scripts to replace `\N` with null values where applicable. Thankfully, I had taken multiple backups of the MySQL database and a snapshot of other web server instance before the upgrade and database migration. I later [started a discussion](https://github.com/umami-software/umami/discussions/3708) for their GitHub repository suggesting that they create a tool to do the actual migration of data for those self-hosting the application.
 
-## Next Steps
+### Next Steps
 
 One service that I still use for my Wait Wait Stats Project is New Relic to monitor the health and performance of the web applications. For now, I am using their free tier and constantly get nagged each time I log in to upgrade to a paid tier, even though I have zero need for it. I have a [Prometheus](https://prometheus.io/) and [Grafana OSS](https://grafana.com/) instance that I run at home, but I haven't had a chance to look at deploying an instance for the public-facing services or other services that can support OpenTelemtry. Hopefully I'll have some free time in the coming months to deep dive into the options and how I would deploy whichever option I decide to use.

@@ -2,7 +2,7 @@
 layout: post
 title:  "Wait Wait Stats Project Updates"
 date:   2023-01-07 17:55:00 -0800
-tags:   update waitwait
+tags:   stats update waitwait
 ---
 
 New versions of the Wait Wait Stats Page and the Wait Wait Graphs site have been published, mostly to update the version of the Materialize used by the sites (from 1.1.0 to 1.2.1) and to update the copyright year and blocks in each of the code files.

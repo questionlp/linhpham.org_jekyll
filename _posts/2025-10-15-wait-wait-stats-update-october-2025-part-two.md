@@ -2,12 +2,12 @@
 layout: post
 title:  "Wait Wait Stats Updates: October 2025 Part Two"
 date:   2025-10-15 22:05:00 -0700
-tags:   waitwait update
+tags:   stats waitwait update
 ---
 
 Although it has only been about a week since the last [Wait Wait Stats Update]({{ site.url }}{% post_url 2025-10-10-wait-wait-stats-update-october-2025 %}) blog post, there have been a couple of updates to the project and to the production instances of the Wait Wait Stats sites.
 
-## Wait Wait Stats: Python 3.12 and Beyond
+### Wait Wait Stats: Python 3.12 and Beyond
 
 In the previous update, I published a new version of the [Wait Wait Stats Library](https://github.com/questionlp/wwdtm) where minimum supported version of Python was moved from 3.10 to 3.12. Included with those chances were updating a number of the dependencies and also adding provisional support for MariaDB Server 11.8 and 12.
 
@@ -19,7 +19,7 @@ I had already been running the applications using Python 3.12 in production for 
 
 Testing the Stats Library and all of the applications using Python 3.14 is something that I'll start in the coming months.
 
-## Panelist Scoring Exceptions and Anomalies
+### Panelist Scoring Exceptions and Anomalies
 
 Along with getting all of the Wait Wait Stats Project web applications updated, I updated the Wait Wait Stats Library to include a `score_exception` flag for each panelist appearance dictionary returned. The calculation is based on if there is a mismatch between a panelist's total score as stated by the judge and scorekeeper and how total scores should be calculated:
 
@@ -37,7 +37,7 @@ Since the [Wait Wait Stats API](https://api.wwdt.me/) returns a JSON representat
 
 For the [Wait Wait Reports Site](https://reports.wwdt.me/), I added a new panelists [Scoring Exceptions and Anomalies](https://reports.wwdt.me/panelists/scoring-exceptions) report that returns a list of each exception or anomaly, including the show date, the panelist's Lightning Fill In The Blank starting score, number of correct answers, recorded total score, the panelist's ranking for the show, and show notes to provide additional context.
 
-## Odds and Ends
+### Odds and Ends
 
 The [Wait Wait Stats Project Theme](https://github.com/questionlp/wwdtm-theme) received a minor update to fix an issue where the DB ID and the panelist ranking badge background color was the same as the page's background color when using the dark color theme.
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "Wait Wait Stats: Going All Retro (Sort Of)"
 date:   2025-08-09 18:00:00 -0700
-tags:   waitwait update
+tags:   stats waitwait update
 ---
 
 When I migrated the web front-end framework for the [Wait Wait Stats Page](https://stats.wwdt.me/), [Reports Site](https://reports.wwdt.me/) and [Graphs Site](https://graphs.wwdt.me/) over to [Bootstrap](https://getbootstrap.com/), I implemented a color theme selector that would allow people to use the browser or system-preferred color scheme or specifically select either a light color theme or a dark color theme. There is now a new retro-inspired "middle" color theme available named "Retro". I know, not exactly a creative or unique name.
@@ -99,7 +99,7 @@ There were some components that use colors that fall outside of the requirements
 
 The version of the Plotly JavaScript library for the Graphs Site has been upgraded from version 3.0.3 to 3.1.0. This also marks the last release version of the Graphs Site that will support and bundle any version prior to 3.0. As such, the `settings.use_plotly_v3` configuration setting will now default to `True` that this point forward.
 
-## What's Next
+### What's Next
 
 My next project is to start backfilling segments information for shows starting in 2006 so that they include all segments, including Panel Questions and Lightning Fill In The Blank, where each segment is separated by semi-colons. The goal of having all shows using this format for segment lists is to allow me to later present the segments as a list and affords me the option of separating show segments from show descriptions.
 
@@ -107,7 +107,7 @@ Considering the number of shows from January 2006 through September 2023, this w
 
 After that, I will start listening to shows from January 2000 up to the end of December 2006 to do the same and, more importantly, verify the data that I've collected for those shows.
 
-## Release Notes
+### Release Notes
 
 For more information on the changes included in the new versions of the Wait Wait Stats Project Theme, Wait Wait Stats Page, Graphs Site and Reports Site, checkout out the release notes for each release:
 

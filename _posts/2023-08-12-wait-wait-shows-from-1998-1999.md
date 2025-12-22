@@ -2,7 +2,7 @@
 layout: post
 title:  "Wait Wait Shows From 1998 to 1999"
 date:   2023-08-12 18:15:00 -0700
-tags:   waitwait
+tags:   stats waitwait
 ---
 
 A while back, after being able to download [Wait Wait Don't Tell Me!](https://waitwait.npr.org/) shows that aired back to 2000, I worked with the folks at Wait Wait and [NPR](https://npr.org/) to request access to the shows that aired in 1998 and 1999. At that time, the NPR Rights and Permissions group would need some time to see if and how they could provide me access to those shows. After a few months, I did not hear back from them and moved on with other things.

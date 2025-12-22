@@ -2,12 +2,12 @@
 layout: post
 title:  "Wait Wait Stats Updates: July 2025"
 date:   2025-07-01 21:00:00 -0700
-tags:   waitwait update
+tags:   stats waitwait update
 ---
 
 In the past month, I have been working on a couple of updates for the Wait Wait Stats Project sites and the infrastructure that hosts the sites. I will be covering those updates and changes in this blog post.
 
-## Update on the Server Infrastructure Changes
+### Update on the Server Infrastructure Changes
 
 **Update 2025-07-02:** I just fixed the broken MySQL database replication between the two web application servers. I will need to bolster the monitoring of the database servers in the coming weeks.
 
@@ -23,7 +23,7 @@ I also resized the smaller of the two web application servers (`korva`) to match
 
 Eventually, I will need to extend that redundancy to the load balancer setup.
 
-## Wait Wait Reports Site
+### Wait Wait Reports Site
 
 The night that I am writing this blog post, I just published version 4.0.0 of the [Wait Wait Reports Site](https://reports.wwdt.me/), which has includes a couple of new and updated reports, and a significant behind-the-scenes change.
 
@@ -45,7 +45,7 @@ For the time being, I don't plan on making the same changes to the Wait Wait Sta
 
 Additional information on the changes that I haven't covered in this blog post can be found in the [changelog](https://github.com/questionlp/reports.wwdt.me/blob/main/CHANGELOG.md) available in the [reports.wwdt.me](https://github.com/questionlp/reports.wwdt.me) repository.
 
-## Wait Wait Stats Page
+### Wait Wait Stats Page
 
 While the updates to the [Wait Wait Stats Page](https://stats.wwdt.me/) are not as extensive as the Reports Site, the site has received a couple of fixes and updates. The larger change to the site is the additional of the "[Understanding Wait Wait Stats Page Data](https://stats.wwdt.me/understanding-data)" page and changes to some of the templates to support the new page.
 
@@ -57,7 +57,7 @@ In order to include the corresponding information blocks on the page, the corres
 
 For additional information on the changes included in version 6.7.0 of the Stats Page can be found in the [changelog](https://github.com/questionlp/stats.wwdt.me/blob/main/CHANGELOG.md) available in the [stats.wwdt.me](https://github.com/questionlp/stats.wwdt.me/) repository.
 
-## Filling in the "Multiple" Panelist Blanks
+### Filling in the "Multiple" Panelist Blanks
 
 There are a handful of Best Of and Repeat Best Of shows that I hadn't been able to determine each panelist who made an appearance in the segments included in those shows. I created a "Multiple" placeholder panelist in the Stats Database and entered that has the sole panelist for those shows.
 
@@ -65,7 +65,7 @@ Some of the hurdles for collecting that information in the past included the lac
 
 Now that I have access to almost every show from 1998 through the most recent show, I have started the task of listening through those Best Of shows to collect and enter in the panelists who appeared in those segments. I am also included a few additional notes as I run into any interesting information from those shows, including guest hosts and scorekeepers.
 
-## Wrapping Up
+### Wrapping Up
 
 Flickr [recently announced](https://blog.flickr.net/en/2025/06/18/creative-commons-4-0-has-arrived-on-flickr/) that they added support for version 4.0 of the [Creative Commons](https://creativecommons.org/) licenses and added the ability to bulk update photos to use the new license. Up until then, I had been uploading photos of the notes I take for each Wait Wait Don't Tell Me! that I listen to up on Flickr and licensed them under [Creative Commons Attribution-NonCommercial-ShareAlike 2.0](https://creativecommons.org/licenses/by-nc-sa/2.0/). With the ability to bulk update photos, all of the photos are now under [Creative Commons Attribution-NonCommercial-ShareAlike 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). The photos are added to the [Wait Wait Don't Tell Me! Notes](https://www.flickr.com/photos/questionlp/albums/72157718939162790/) album and are ordered from oldest to newest.
 

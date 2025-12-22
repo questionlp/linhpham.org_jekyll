@@ -2,7 +2,7 @@
 layout: post
 title:  "Announcing Wait Wait Stats Page Version 6!"
 date:   2024-08-31 11:00:00 -0700
-tags:   waitwait update
+tags:   stats waitwait update
 ---
 
 It was about 2.5 years ago that I published version 5.0 of the [Wait Wait Stats Page](https://stats.wwdt.me/), which two significant changes behind the scenes: migrating to version 2 of the Wait Wait Stats Library ([wwdtm](https://github.com/questionlp/wwdtm)) and using Flask Blueprints.

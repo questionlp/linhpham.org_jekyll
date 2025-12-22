@@ -2,7 +2,7 @@
 layout: post
 title:  "Wait Wait Comes Back to Portland!"
 date:   2023-07-22 22:45:00 -0700
-tags:   waitwait tapings
+tags:   stats waitwait tapings
 ---
 
 It has been six years since [Wait Wait Don't Tell Me!](https://waitwait.npr.org/) has taped a show at the Arlene Schnitzer Concert Hall in Portland, Oregon, and it has been almost four years since I have been to a taping (the [1000th show taping](https://blog.wwdt.me/2019/10/the-1000th-show-taping-and-new-wait-wait-stats-reports/) in Salt Lake City, Utah). I had planned a visit to Chicago for my 40th birthday celebration in 2020, but something happened globally months before that scuppered the plan.

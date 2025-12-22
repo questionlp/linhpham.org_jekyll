@@ -2,7 +2,7 @@
 layout: post
 title:  "wwdtm Version 2.0.9 Released"
 date:   2023-04-22 12:00:00 -0700
-tags:   waitwait update
+tags:   stats waitwait update
 ---
 
 I have updated the [wwdtm](https://pypi.org/projects/wwdtm/) library to version 2.0.9, which includes bumping the version of [MySQL Connector/Python](https://dev.mysql.com/doc/connector-python/en/) to 8.0.33 and [NumPy](https://numpy.org) to 1.24.2. The former is done as a very initial step towards support for the upcoming [Python 3.12](https://docs.python.org/3.12/whatsnew/3.12.html) release later in the year.

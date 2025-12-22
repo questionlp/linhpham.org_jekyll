@@ -2,7 +2,7 @@
 layout: post
 title:  "Wait Wait Stats Updates: June 2024"
 date:   2024-06-05 18:00:00 -0700
-tags:   waitwait update
+tags:   stats waitwait update
 ---
 
 In the last [Wait Wait Stats Updates blog post]({{ site.url }}{% post_url 2024-04-24-wait-wait-stats-update-april-2024 %}), I mentioned adding support for storing preferred pronouns for show hosts, panelists, and scorekeepers in the Wait Wait Stats Database, the Wait Wait Stats Library, and the Wait Wait Stats API.

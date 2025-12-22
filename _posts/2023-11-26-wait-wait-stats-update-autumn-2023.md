@@ -2,7 +2,7 @@
 layout: post
 title:  "Wait Wait Stats Updates: Autumn 2023"
 date:   2023-11-26 20:25:00 -0800
-tags:   waitwait update
+tags:   stats waitwait update
 ---
 
 Since I last posted an update on listening to [Wait Wait Don't Tell Me!](https://stats.wwtd.me/) episodes from 1998 and 1999, I have not had a chance to listen to more episodes. My time has been split between my day job and working on updates for the Wait Wait Stats projects.

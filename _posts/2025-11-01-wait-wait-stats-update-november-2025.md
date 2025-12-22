@@ -2,7 +2,7 @@
 layout: post
 title:  "Wait Wait Stats Updates: November 2025"
 date:   2025-11-01 14:45:00 -0700
-tags:   waitwait update
+tags:   stats waitwait update
 ---
 
 The [Wait Wait... Don't Tell Me!](https://waitwait.npr.org/) that aired on [November 1, 2025](https://stats.wwdt.me/shows/2025/11/1) was the very first show that had a panel consisting of three men: Adam Burke, Alonzo Bodden and Josh Gondelman. This happened a little over 10 years since the very first show with an all women panel that aired on [September 12, 2025](https://stats.wwdt.me/shows/2025/9/12) with Faith Salie, Paula Poundstone and Roxanne Roberts.

@@ -2,7 +2,7 @@
 layout: post
 title:  "Wait Wait Stats Updates: March 2023"
 date:   2023-03-16 16:30:00 -0700
-tags:   waitwait update
+tags:   stats waitwait update
 ---
 
 With the release of [Materialize](https://materializeweb.com/) version 1.2.2, I have updated both the [Wait Wait Stats Page](https://stats.wwdt.me/) and [Wait Wait Graphs Site](https://graphs.wwdt.me/) to use the new version of the CSS framework.

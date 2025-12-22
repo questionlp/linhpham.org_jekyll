@@ -2,7 +2,7 @@
 layout: post
 title:  "Wait Wait Stats Updates: Adding More Randomness"
 date: 2025-02-02 22:05 -0800
-tags: waitwait update
+tags: stats waitwait update
 ---
 
 Back in February 2021, I published a blog post title, "[That's So... Randomizer](https://blog.wwdt.me/2021/02/thats-so-randomizer/)", on the old [Wait Wait Stats Project Blog](https://blog.wwdt.me/) announcing a new feature I added to the [Wait Wait Stats Page](https://stats.wwdt.me/) with the ability to view a random Not My Job guest, host, location, panelist, scorekeeper or show from the corresponding pages. In the same blog post, I mentioned that I would look at adding corresponding API endpoints to the [Wait Wait Stats API](https://api.wwdt.me/). Four years later, I guess it was finally time to add those API endpoints and a few other features to both the Stats Page and the Stats API.

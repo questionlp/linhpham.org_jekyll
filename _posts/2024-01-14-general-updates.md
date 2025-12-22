@@ -2,7 +2,7 @@
 layout: post
 title:  "General Updates"
 date:   2024-01-14 18:00:00 -0800
-tags:   debian hardware linux laptops waitwait update
+tags:   debian hardware linux laptops stats waitwait update
 ---
 
 I have been busy with several updates to the Wait Wait Stats projects and changes to my homelab and ThinkPad.

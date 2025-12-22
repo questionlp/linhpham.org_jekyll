@@ -2,14 +2,14 @@
 layout: post
 title:  "Wait Wait Stats Updates: July 2025 Part Two"
 date:   2025-07-20 18:40:00 -0700
-tags:   waitwait update
+tags:   stats waitwait update
 ---
 
 Since I published [the last Wait Wait Stats Updates]({{ site.url }}{% post_url 2025-07-01-wait-wait-stats-updates-july-2025 %}) three weeks ago, I have been working a number of updates to the [Wait Wait Graphs Site](https://graphs.wwdt.me/) and a couple of minor updates for the [Wait Wait Stats Page](https://stats.wwdt.me/) and [Wait Wait Reports Site](https://reports.wwdt.me/).
 
-## Graphs Site Updates
+### Graphs Site Updates
 
-### Color Palette Changes
+#### Color Palette Changes
 
 When I [migrated the Graphs Site from Materialize to Bootstrap]({{ site.url }}{% post_url 2024-09-05-wait-wait-graphs-version-3-published %}), I chose the set of colors for the different plots to have some contrast between different lines or bars based on the colors used by [Wait Wait Don't Tell Me!](https://waitwait.npr.org/), [NPR](https://npr.org/), and the [IBM Design Language](https://www.ibm.com/design/language/color/).
 
@@ -71,7 +71,7 @@ For the two heatmap graphs, I replaced the orange and yellow gradient with the p
 
 The color palettes are configured through the `colors.yaml` file at the root of the Python application directory and is read in as part of the Flask and Jinja initialization process. I chose to use YAML instead of JSON as it is more readable while being easier to update and have comments. Yes, I know about JSONC. I just preferred YAML in this case.
 
-### Two New Graphs
+#### Two New Graphs
 
 In addition to the color palette changes, I added two new graphs to the Graphs Site: [Locations Home vs Away](https://graphs.wwdt.me/locations/home-vs-away) and [Not My Job vs Bluff the Listener Win Ratios](https://graphs.wwdt.me/shows/not-my-job-vs-bluff-win-ratios). As I was creating the reports of the same name, I wanted to create graphs versions to visualize the data.
 
@@ -100,7 +100,7 @@ In addition to the color palette changes, I added two new graphs to the Graphs S
 
 For the time being, there will only be one graph in the Locations section of the Graphs Site. I'm am looking at creating a visual version of the [Recordings by Year](https://reports.wwdt.me/locations/recordings-by-year) report in the future.
 
-### Things to Do
+#### Things to Do
 
 As it stands, changing the color theme using the dropdown in the upper right corner of each page will not change the color scheme used by the graphs. Instead, the graph scheme is determined by the `prefers-color-scheme` value provided by the browser. Changing the `prefers-color-scheme` value on the fly also does not trigger the graph to automatically change color schemes.
 
@@ -108,7 +108,7 @@ Both are known bugs and have been bugs since I switched from using [Chart.js](ht
 
 I will also be working on removing unnecessary legends from graphs that only have one data category to reduce clutter within graphs.
 
-## Stats Page Updates
+### Stats Page Updates
 
 When I [migrated the Stats Page from Materialize to Bootstrap]({{ site.url }}{% post_url 2024-08-31-announcing-wait-wait-stats-page-version-6 %}), I changed how the Not My Job Guest scoring exception was displayed on the show details information block to include a tooltip on hovering over the asterisk shown after the score. Unfortunately, the way that I handled that logic meant that the full `<span>` was included, but only the asterisk was rendered as needed.
 
@@ -116,7 +116,7 @@ I noticed the issue when I started using the [axe DevTools](https://www.deque.co
 
 An update was made to only render the full `<span>` if and only when there is a scoring exception.
 
-## Other Updates
+### Other Updates
 
 As I was finalizing and testing the changes to the [Graphs Site](https://graphs.wwdt.me/), the news that the United States Congress rescinded funding for public media and broadcasting (coverage from [AP News](https://apnews.com/article/pbs-npr-budget-cuts-trump-republicans-b0044285659ab708e23eb2dc2f3eabfa) and [NPR](https://www.npr.org/2025/07/18/nx-s1-5469912/npr-congress-rescission-funding-trump)), I decided to add a "Support NPR" link to the side pop-out navigation and to the page footer of the Graphs Site, the [Reports Site](https://reports.wwdt.me/) and the [Stats Page](https://stats.wwdt.me/), that points to [NPR's donation page](https://www.npr.org/donations/support).
 
@@ -124,7 +124,7 @@ I know, it probably won't drive anyone to click on the link and donate to NPR, b
 
 For troubleshooting and debugging purposes, I have discreetly added the name of the node that rendered the page when hovering over the page render timestamp at the bottom of each page. This can be helpful when trying to find the source of intermittent issues and inconsistent behavior on load balanced servers where it works fine on some nodes but not others.
 
-## Release Changelogs
+### Release Changelogs
 
 For additional information about the changes included in each version of the Wait Wait Graphs Site, Reports Site and Stats Page, refer to the corresponding changelog files below:
 

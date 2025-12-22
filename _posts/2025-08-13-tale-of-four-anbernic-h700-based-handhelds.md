@@ -16,7 +16,7 @@ Over the past couple of years, I have been building up a decent collection of ha
     </p>
 </div>
 
-## Table of Contents
+### Table of Contents
 
 <div class="row ms-2">
     <div class="col col-lg-6">
@@ -36,7 +36,7 @@ Over the past couple of years, I have been building up a decent collection of ha
     </div>
 </div>
 
-## Overview of the Anbernic "RGXX" Handhelds
+### Overview of the Anbernic "RGXX" Handhelds
 
 Anbernic has a series of handhelds that Allwinner's H700 system on a chip that include four cores based on the 64-bit [ARM Cortex-A53](https://www.arm.com/products/silicon-ip-cpu/cortex-a/cortex-a53) cores capable of running at 1.5 GHz and include 1GB of LPDDR4 memory. The series of handhelds, which are commonly referred to as the "RGXX" series, differentiate themselves with different screen sizes, form factors and niche features.
 
@@ -50,7 +50,7 @@ One thing that I did want to mention here is the charging situation with the han
 
 I charge my Anbernic handhelds by plugging into multi-port chargers with USB Type-A ports and only provide 5 volts. This is something to keep in mind if you are plannning to get into the RGXX series or rechargeable battery kits for OG handhelds.
 
-## RG35XX H: The Candy Bar
+### RG35XX H: The Candy Bar
 
 Although the first emulation handheld console that I had was the Nintendo Game Boy-inspired Anbernic RG351V, the form factor and ergonomics left much to desire, so I ended up getting an RG351MP to replace it. The RG351MP has a horizontal, or candy bar, form factor that felt more better to hold.
 
@@ -73,7 +73,7 @@ In terms of size, the dimensions of the RG35XX H comes in pretty close to the RG
 
 The Super Famicom/Nintendo button layout, the Start and Select buttons, and the the D-pad are in a comfortable position for my hands and fingers. The size and position of the L1/L2 and R1/R2 shoulder buttons are not ideal, but are positioned well as rests for my index fingers when playing games that don't use shoulder buttons. Between the positions of the joysticks and not playing games that would benefit from using them, I don't use them. With the joysticks being semi-recessed, they do not get in the way no matter what grip I use.
 
-## RG35XX SP: Game Boy Advance SP-Inspired
+### RG35XX SP: Game Boy Advance SP-Inspired
 
 Of the two original Nintendo Game Boy Advance handhelds that I have, I tend to prefer playing on the SP with its backlit screen (mine is one of the AGS-101 revisions with a better backlight than the original AGS-001) and compact size when folded. The ergonomics was a bit of a step back from the original GBA, but nothing could beat having a good backlit screen.
 
@@ -129,7 +129,7 @@ Thankfully, there is a mod that can be done to reduce both the noise and make th
 
 Even with the mod, using the D-pad and buttons is still a bit fatiguing after about 15 minutes, especially when playing platformers and fighting games. Given the finger fatigue issue when using the handheld for longer periods of time and scaling situation when playing GBA games on the RG35XX SP, I end up playing GBA games on my original GBA SP than the RG35XX SP. Still, I tend to carry around the RG35XX SP more often than I do the RG35XX H solely due to the size of the handheld when closed.
 
-## RG34XX H: OG Game Boy Advance-Inspired
+### RG34XX H: OG Game Boy Advance-Inspired
 
 Not content with just one handheld console inspired by a Game Boy Advance, Anbernic released another GBA-inspired handheld. This time, they made the RG34XX H and it is heavily inspired by the original GBA, mimicking the overall shape and size and general button layout (along with a few other buttons). The RG34XX H is very slightly wider than the original GBA and feels nearly identical in the hand.
 
@@ -183,7 +183,7 @@ The other issue that I have with my RG34XX H is the D-pad is super sensitive, ca
 
 In all, the RG34XX H is great for GBA games and that's what I primarily use it for. And, that also means that it is not the RGXX handheld that I will take with me most of the time.
 
-## RG40XX V: Vertical and Bigger Screen
+### RG40XX V: Vertical and Bigger Screen
 
 Anbernic sells several versions of the RGXX handhelds that have a vertical form factor that takes inspiration from the original Game Boy. As mentioned earlier in this post, I have owned one of their earlier vertical form factor handhelds before, but did not like the ergonomics. When Anbernic announced the RG40XX V, an RGXX handheld with a 4-inch (~102 mm) screen, I kind of hesistated in ordering one.
 
@@ -210,7 +210,7 @@ The D-pad does not exhibit the unwanted diagonals like the RG34XX H and the dish
 
 Due to the large size, I don't often take it with me, but it is perfect for playing games at home or when I am taking backpack with me and I don't have room for one of my AYN Odin2 handhelds.
 
-## KNULLI and Common Issues
+### KNULLI and Common Issues
 
 All four the RGXX handhelds that I have are currently running the latest stable release of KNULLI, [Gladiator](https://github.com/knulli-cfw/distribution/releases/tag/20250505) with the custom firmware loaded on a microSD card in the first card slot and another ExFAT formatted microSD card in the second card slot used for storing games, saves, save states and assets. I mentioned towards the beginning of the post that I tried MuOS on the RG35XX SP since it initially had better support for "sleep" mode, but KNULLI caught up in a later release and I wanted all four devices to run the same custom firmware.
 
@@ -230,7 +230,7 @@ With the any of the handhelds in a powered off state, turning on the device and 
 
 I have also run into an issue where I shutdown the device within KNULLI and the device powers off, but the screen backlight stays or turns back on for a few seconds, then turns off. This is more of an issue with the RG35XX SP where the green power light stays on after closing the handheld and sometimes hangs, causing the battery to continue draining. I would have to press the reset button and go through the boot and shutdown process again.
 
-## Closing Thoughts
+### Closing Thoughts
 
 For the most part, I continue to have fun playing games, especially PICO-8 games, on the four RGXX handhelds that I have. If I were to recommend the RGXX handhelds that I have, it would be:
 
