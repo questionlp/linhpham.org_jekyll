@@ -62,6 +62,16 @@ For 2025, I made a couple of tweaks to the design of the infographic to only use
 
 All of the infographic images are available in the [Wait Wait Stats Wrapped 2025](https://www.flickr.com/photos/questionlp/albums/72177720331077624) album that I published on Flickr.
 
+### Licensing and Distribution
+
 I have published the presentation file, images, database scripts and resulting data to the [wait-wait-stats-wrapped](https://github.com/questionlp/wait-wait-stats-wrapped) repository on Github, as well as publishing the full [wait-wait-stats-wrapped](https://codeberg.org/qlp/wait-wait-stats-wrapped) repository over on Codeberg.
 
 The presentation and image files have been published under the [Creative Commons Attribution-ShareAlike 4.0 International](Attribution-ShareAlike 4.0 International) license and the database scripts are licensed under the [MIT License](https://github.com/questionlp/wait-wait-stats-wrapped/blob/main/LICENSE.md) (*[Codeberg repo mirror](https://codeberg.org/qlp/wait-wait-stats-wrapped/src/branch/main/LICENSE.md)*).
+
+### Wait Wait Stats Project Links
+
+* [Wait Wait Stats Page](https://stats.wwdt.me/)
+* [Wait Wait Stats API](https://api.wwdt.me/)
+* [Wait Wait Graphs Site](https://graphs.wwdt.me/)
+* [Wait Wait Reports Site](https://reports.wwdt.me/)
+* [Wait Wait Stats Library Documentation](https://docs.wwdt.me/)
