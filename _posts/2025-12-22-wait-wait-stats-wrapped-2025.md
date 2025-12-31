@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Wait Wait Stats Wrapped 2025"
-date:   2025-12-22 9:45:00 -0800
+date:   2025-12-22 09:45:00 -0800
 tags:   stats waitwait wrapped update
 ---
 
@@ -30,7 +30,7 @@ Last December, I published a series of Spotify Wrapped-inspired infographic imag
     </div>
 </div>
 
-For 2025, I made a couple of tweaks to the design of the infographic to only use full uppercase text in the title image, as well as removing the tilt of the titles on each subsequent image, to improve readability and reduce some of the harshness in the design. I also added several new sets of statistics, including:
+For 2025, I made a couple of tweaks to the design of the infographic to only use full uppercase text in the title image, as well as removing the rotated text for the titles on each subsequent image, to improve readability and reduce some of the harshness in the design. I also added several new sets of statistics, including:
 
 * Hosts with the Most Appearances
 * Scorekeepers with the Most Appearances
@@ -64,7 +64,7 @@ All of the infographic images are available in the [Wait Wait Stats Wrapped 2025
 
 ### Licensing and Distribution
 
-I have published the presentation file, images, database scripts and resulting data to the [wait-wait-stats-wrapped](https://github.com/questionlp/wait-wait-stats-wrapped) repository on Github, as well as publishing the full [wait-wait-stats-wrapped](https://codeberg.org/qlp/wait-wait-stats-wrapped) repository over on Codeberg.
+I have published the presentation file, images, database scripts and resulting data to the [wait-wait-stats-wrapped](https://github.com/questionlp/wait-wait-stats-wrapped) repository on GitHub, as well as publishing the full [wait-wait-stats-wrapped](https://codeberg.org/qlp/wait-wait-stats-wrapped) repository over on Codeberg.
 
 The presentation and image files have been published under the [Creative Commons Attribution-ShareAlike 4.0 International](Attribution-ShareAlike 4.0 International) license and the database scripts are licensed under the [MIT License](https://github.com/questionlp/wait-wait-stats-wrapped/blob/main/LICENSE.md) (*[Codeberg repo mirror](https://codeberg.org/qlp/wait-wait-stats-wrapped/src/branch/main/LICENSE.md)*).
 

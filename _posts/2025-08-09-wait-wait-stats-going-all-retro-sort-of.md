@@ -101,7 +101,7 @@ The version of the Plotly JavaScript library for the Graphs Site has been upgrad
 
 ### What's Next
 
-My next project is to start backfilling segments information for shows starting in 2006 so that they include all segments, including Panel Questions and Lightning Fill In The Blank, where each segment is separated by semi-colons. The goal of having all shows using this format for segment lists is to allow me to later present the segments as a list and affords me the option of separating show segments from show descriptions.
+My next project is to start backfilling segment information for shows starting in 2006 so that they include all segments, including Panel Questions and Lightning Fill In The Blank, where each segment is separated by semi-colons. The goal of having all shows using this format for segment lists is to allow me to later present the segments as a list and affords me the option of separating show segments from show descriptions.
 
 Considering the number of shows from January 2006 through September 2023, this will take quite a bit of time to complete. What is helpful is that I was able to download individual segment audio for nearly all shows between from 2006 through October 2021. That way, I can just listen to the first minute of each segment audio file and quickly note the segment name and move on.
 

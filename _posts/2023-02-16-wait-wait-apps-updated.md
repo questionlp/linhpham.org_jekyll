@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Wait Wait Stats Apps Updated"
-date:   2023-02-16 8:45:00 -0800
+date:   2023-02-16 08:45:00 -0800
 tags:   stats waitwait update
 ---
 

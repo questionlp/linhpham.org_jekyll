@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Wait Wait Stats Updates: November 2025"
-date:   2025-11-01 14:45:00 -0700
+date:   2025-11-01 14:45:00 -0800
 tags:   stats waitwait update
 ---
 
