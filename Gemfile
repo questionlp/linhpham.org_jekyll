@@ -39,3 +39,5 @@ gem "logger", "~> 1.6"
 gem "ostruct", "~> 0.6"
 
 gem "google-protobuf", "~> 4.32.1"
+
+gem "json", "~> 2.17"
