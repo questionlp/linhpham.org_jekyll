@@ -1,0 +1,15 @@
+Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+Bus 003 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+Bus 004 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+Bus 005 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+Bus 006 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+Bus 007 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+Bus 007 Device 002: ID 05ac:0340 Apple, Inc. Apple Internal Keyboard / Trackpad
+Bus 007 Device 003: ID 05ac:8302 Apple, Inc. Touch Bar Display
+Bus 007 Device 004: ID 05ac:8102 Apple, Inc. Touch Bar Backlight
+Bus 007 Device 005: ID 05ac:8104 Apple, Inc. 
+Bus 007 Device 006: ID 05ac:8233 Apple, Inc. iBridge
+Bus 007 Device 007: ID 05ac:8514 Apple, Inc. FaceTime HD Camera (Built-in)
+Bus 007 Device 008: ID 05ac:8262 Apple, Inc. Ambient Light Sensor
+Bus 007 Device 009: ID 05ac:8103 Apple, Inc. Headset

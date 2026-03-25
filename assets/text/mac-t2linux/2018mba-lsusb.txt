@@ -1,0 +1,11 @@
+Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+Bus 001 Device 002: ID 1050:0407 Yubico.com Yubikey 4/5 OTP+U2F+CCID
+Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+Bus 003 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+Bus 004 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+Bus 005 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+Bus 005 Device 002: ID 05ac:8233 Apple, Inc. iBridge
+Bus 005 Device 003: ID 05ac:8514 Apple, Inc. FaceTime HD Camera (Built-in)
+Bus 005 Device 004: ID 05ac:8262 Apple, Inc. Ambient Light Sensor
+Bus 005 Device 005: ID 05ac:8103 Apple, Inc. Headset
+Bus 005 Device 006: ID 05ac:027a Apple, Inc. Apple Internal Keyboard / Trackpad
