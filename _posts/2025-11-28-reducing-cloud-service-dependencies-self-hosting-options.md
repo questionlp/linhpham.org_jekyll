@@ -5,7 +5,7 @@ date:   2025-11-28 10:30:00 -0800
 tags:   self-hosting hosting cloud
 ---
 
-Over the years, I have gone from hosting websites and applications over a DSL connection at home, to hosting them on virtual private servers (VPS), shifting some of the static content hosting to GitHub Pages and made use of services like Cloudflare, Google Analytics, and Google Fonts. In the past year, I have been replacing those services with things that I have more control over on my VPS instances. This is in addition to self-hosting personal instances of Mastodon ([linh.social](https://linh.social/)), Pixelfed ([pxl.linh.social](https://pxl.linh.social/)) and Nextcloud as a means to migrate away from corporate social networks and cloud storage.
+Over the years, I have gone from hosting websites and applications over a DSL connection at home, to hosting them on virtual private servers (VPS), shifting some of the static content hosting to GitHub Pages and made use of services like Cloudflare, Google Analytics, and Google Fonts. In the past year, I have been replacing those services with things that I have more control over on my VPS instances. This is in addition to self-hosting personal instances of Mastodon ([linh.social](https://linh.social/)) and Nextcloud as a means to migrate away from corporate social networks and cloud storage.
 
 I'll cover what and how I have replaced those services to regain more control over my web presence and limit (or even eliminate) the amount of information that gets handed over to large corporations. It also fits with the ethos of a decentralized and independent web and while having the benefit of not being impacted by outages caused by AWS, Cloudflare, and other large cloud service outages.
 
