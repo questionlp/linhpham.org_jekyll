@@ -23,9 +23,9 @@ If I had more time to investigate the issues and troubleshoot, I may have found 
 
 ### Fedora Post-Installation Setup
 
-I won't go into details about installing the initial set of packages or the dependencies for building, developing, and testing Python, Ruby, and Node.js applications. I have [published a document](https://github.com/questionlp/framework-laptop-16/blob/main/prepping-fedora-for-web-development.md) on GitHub of those steps.
+I won't go into details about installing the initial set of packages or the dependencies for building, developing, and testing Python, Ruby, and Node.js applications. I have published "Prepping Fedora for Python, Ruby and Node.js Web Development" on both [GitHub](https://github.com/questionlp/framework-laptop-16/blob/main/prepping-fedora-for-web-development.md) and on [Codeberg](https://codeberg.org/qlp/framework-laptop-16/src/branch/main/prepping-fedora-for-web-development.md) of those steps.
 
-Since Fedora does not include non-free multimedia codecs with their installers or package repositories, I had to install them and packages to enable hardware-accelerated video encoding and decoding from RPM Fusion. I have detailed the steps in a document called [Installing OpenH264 and Mesa from RPM Fusion](https://github.com/questionlp/framework-laptop-16/blob/main/installing-openh264-and-mesa-from-rpmfusion.md) posted on GitHub.
+Since Fedora does not include non-free multimedia codecs with their installers or package repositories, I had to install them and packages to enable hardware-accelerated video encoding and decoding from RPM Fusion. I have detailed the steps in "Installing OpenH264 and Mesa from RPM Fusion" available on [GitHub](https://github.com/questionlp/framework-laptop-16/blob/main/installing-openh264-and-mesa-from-rpmfusion.md) and on [Codeberg](https://codeberg.org/qlp/framework-laptop-16/src/branch/main/installing-openh264-and-mesa-from-rpmfusion.md).
 
 ### Migrating Data and New Applications
 
@@ -156,7 +156,7 @@ The first set of changes I made was to swap the Left `Ctrl` key with the `Fn` ke
 
 Since the `Fn` and Left `Ctrl` keys are not the same size, I had to order stickers to re-label them. I then carefully swapped the keycaps on the other two keys.
 
-I have [documented the process](https://github.com/questionlp/framework-laptop-16/blob/main/README.md#qmkvia-keyboard-left-ctrl-and-fn-swap-and-right-ctrl-and-alt-swap) of getting Framework's version of the VIA application working on Fedora and the mapping JSON files available on GitHub.
+I have documented the process in the "QMK/VIA Keyboard: Left CTRL and Fn Swap and Right CTRL and ALT Swap" section of the repository's README file on [GitHub](<https://github.com/questionlp/framework-laptop-16/blob/main/README.md#qmkvia-keyboard-left-ctrl-and-fn-swap-and-right-ctrl-and-alt-swap>) and on [Codeberg](https://codeberg.org/qlp/framework-laptop-16/src/branch/main/README.md) with a link to Framework's version of the VIA application.
 
 #### Compose Key
 

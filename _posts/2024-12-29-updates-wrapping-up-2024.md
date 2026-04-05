@@ -37,7 +37,7 @@ While I have used several free and open source image and photo editing programs 
 
 At this point in time, I don't plan on switching away from Fedora or migrating back to macOS for my daily driver. I have been experimenting with the alpha versions of [COSMIC DE](https://system76.com/cosmic/) installed via [Fedora Copr](https://copr.fedorainfracloud.org/coprs/ryanabx/cosmic-epoch/) on a spare laptop, but it still needs a lot of work and polish before I consider switching away from KDE Plasma.
 
-For more information on the customizations and fixes that I have made for running Fedora on my Framework laptop, checkout my [framework-laptop-16](https://github.com/questionlp/framework-laptop-16) repository on GitHub.
+For more information on the customizations and fixes that I have made for running Fedora on my Framework laptop, checkout my framework-laptop-16 repository on both [GitHub](https://github.com/questionlp/framework-laptop-16) and [Codeberg](https://codeberg.org/qlp/framework-laptop-16).
 
 ### What's Next?
 
