@@ -19,7 +19,7 @@ Even though I decided to step down from pulling and uploading clips for each epi
 
 ### Building the Search Engine
 
-Last month, I started to look at ways to reduce my Amazon footprint and decided to migrate all of the clips to instances hosted on two different virtual private server (VPS) providers. While planning the migration, I also decided to create a [Python script](https://github.com/questionlp/) that would parse through each audio file and catalog their S3 path, filename stem, suffix and audio tag metadata, storing the resulting data into a MySQL database. This would allow me to use the full-text search feature included in MySQL Server to query for specific words or phrases. At that point, I knew that I had to create a search engine of sorts.
+Last month, I started to look at ways to reduce my Amazon footprint and decided to migrate all of the clips to instances hosted on two different virtual private server (VPS) providers. While planning the migration, I also decided to create a [Python script](https://codeberg.org/qlp/marsupialgurgle-audio-parsing) that would parse through each audio file and catalog their S3 path, filename stem, suffix and audio tag metadata, storing the resulting data into a MySQL database. This would allow me to use the full-text search feature included in MySQL Server to query for specific words or phrases. At that point, I knew that I had to create a search engine of sorts.
 
 I decided to use the experience of building web applications in Python and using Bootstrap as a frontend toolkit to create a basic search engine. The search engine supports the use of MySQL's full-text natural language or boolean search mode, with the default being natural language mode.
 
@@ -87,4 +87,4 @@ Both the [Hey Gurgle](https://search.marsupialgurgle.com/) search engine and all
 
 If you would like to learn about the differences in the aforementioned natural language and boolean search modes, the site's [help page](https://search.marsupialgurgle.com/help) provides some of those details.
 
-The source code for both the Python [audio clip parsing script](https://github.com/questionlp/marsupialgurgle-audio-parsing) and the [Hey Gurgle web application](https://github.com/questionlp/search.marsupialgurgle.com) are available on GitHub and are both licensed under the terms of the MIT License.
+The source code for both the Python [audio clip parsing script](https://codeberg.org/qlp/marsupialgurgle-audio-parsing) and the [Hey Gurgle web application](https://codeberg.org/qlp/search.marsupialgurgle.com) are available on Codeberg and are both licensed under the terms of the MIT License.
