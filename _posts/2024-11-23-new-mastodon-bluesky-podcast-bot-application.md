@@ -11,7 +11,7 @@ Two months ago, as I became more active on [Bluesky](https://bsky.app/), I clone
 
 When it comes to checking each podcast feed for new episodes, the scripts will pull down a full copy of each feed and processes through each entry (with a configuration option to set a maximum number of entries to loop through) without checking to see if the `Last-Modified` value in the HTTP response header has been updated.
 
-Instead of having to duplicate the effort across both projects, I decided to merge the two projects together and created [podcast-bot](https://github.com/questionlp/podcast-bot).
+Instead of having to duplicate the effort across both projects, I decided to merge the two projects together and created [podcast-bot](https://codeberg.org/qlp/podcast-bot).
 
 The combined application supports posting to both Mastodon and Bluesky, with the option to enable or disable specific feeds and an option to post to Mastodon and/or Bluesky. The application logic now does an HTTP `HEAD` request for each feed to check to see if the `Last-Modified` value has been updated since the last time it was checked.
 
@@ -73,6 +73,6 @@ If you are interested in following any of the podcast bot accounts that I've set
 
 There are no plans to add support for Twitter/X, Facebook, or Threads.
 
-More information about the new podcast-bot application can be found in the [README](https://github.com/questionlp/podcast-bot/blob/main/README.md) file in the project's repository.
+More information about the new podcast-bot application can be found in the [README](https://codeberg.org/qlp/podcast-bot/src/branch/main/README.md) file in the project's repository.
 
 You can reach out on Mastodon at [@qlp@linh.social](https://linh.social/@qlp) or on Bluesky at [@linh.social](https://bsky.app/profile/linh.social).

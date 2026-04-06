@@ -28,4 +28,4 @@ Below is a screenshot of the generated web page for the two UPS units that I hav
     </figcaption>
 </figure>
 
-Having felt like the web app was now at a good, stable point, I have published the project under the open source [MIT License](https://github.com/questionlp/upsview/blob/main/LICENSE). The [Git repository](https://github.com/questionlp/upsview) for the project is hosted on GitHub. I have included setup and installation instructions in the README file.
+Having felt like the web app was now at a good, stable point, I have published the project under the open source [MIT License](https://codeberg.org/qlp/upsview/src/branch/main/LICENSE). The [Git repository](https://codeberg.org/qlp/upsview) for the project is hosted on Codeberg. I have included setup and installation instructions in the README file.

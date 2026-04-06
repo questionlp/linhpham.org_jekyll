@@ -102,4 +102,4 @@ There are probably a few rough edges that I'll need to work on in terms of usabi
 
 All blog posts are now licensed under Creative Commons Attribution-ShareAlike 4.0 International (aka [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)), unless otherwise stated.
 
-Additional information on the licenses the assets are distributed under is available in the [README.md](https://github.com/questionlp/linhpham.org_jekyll/blob/main/README.md) for this site's code repository.
+Additional information on the licenses the assets are distributed under is available in the [README.md](https://codeberg.org/qlp/linhpham.org_jekyll/src/branch/main/README.md) for this site's code repository.

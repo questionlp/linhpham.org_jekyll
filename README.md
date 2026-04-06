@@ -2,6 +2,8 @@
 
 Personal website and blog built using [Jekyll](https://jekyllrb.com/) and [Bootstrap](https://getbootstrap.com/).
 
+**Note:** The authoritative version of this repository now resides on Codeberg as [linhpham.org_jekyll](https://codeberg.org/qlp/linhpham.org_jekyll) and mirrors changes to GitHub. Going forward, issues and pull requests should be created on Codeberg rather than GitHub.
+
 ## Licensing
 
 All code included in the `_includes`, `_layouts` and `_scss` directories are published under the terms of the [MIT License](./LICENSE), unless otherwise noted.

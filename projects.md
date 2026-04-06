@@ -92,6 +92,7 @@ I created a web application built using Flask that can handle search requests an
 The name "Hey Gurgle" is a reference to the "Marsupial Gurgle" name and a spoof that was made on the podcast in which the co-hosts would say "Hey Gorgle" as a means to avoid triggering Google home assistant devices.
 
 * [Hey Gurgle](https://search.marsupialgurgle.com)
+* [Codeberg Repository: qlp/search.marsupialgurgle.com](https://codeberg.org/qlp/search.marsupialgurgle.com)
 
 ---
 
