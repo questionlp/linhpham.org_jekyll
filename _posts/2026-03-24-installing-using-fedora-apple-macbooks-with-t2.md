@@ -7,7 +7,7 @@ tags:   apple macbook-air macbook-pro linux t2linux fedora
 
 Over the years, I have built up a small collection of laptops, mostly ones that I've kept around after being replaced by a new laptop. They have been useful when I need to have a fallback laptop or to try out different software or operating systems. In that collection, I have a Late 2016 15-inch MacBook Pro and a 16-inch 2019 MacBook Pro collecting dust after experimenting with [installing and using Proxmox]({{ site_url }}{% post_url 2025-08-29-installing-proxmox-ve-9-intel-macbook-pros %}) on them last year.
 
-After getting my hands on a 2018 MacBook Air, after a family member replaced it with a new laptop, I figured that I could try running Linux with [t2linux](https://t2linxu.org/) on both the MacBook Air and the 16-inch MacBook Pro, as both have an Apple T2 security chip.
+After getting my hands on a 2018 MacBook Air, after a family member replaced it with a new laptop, I figured that I could try running Linux with [t2linux](https://t2linux.org/) on both the MacBook Air and the 16-inch MacBook Pro, as both have an Apple T2 security chip.
 
 ### MacBook Specs
 
