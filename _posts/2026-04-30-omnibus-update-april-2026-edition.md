@@ -36,7 +36,9 @@ Fast foward to a week ago, I flew out to Chicago to celebrate my 46th birthday w
     </div>
 </div>
 
-I took notes during the taping of the show in order to compare and contrast with the edited version of the show that would be broadcasted or published on their podcast feeds.
+I took notes during the taping of the show in order to compare and contrast with the [version of the show that aired](https://www.npr.org/programs/wait-wait-dont-tell-me/g-s1-118661/wait-wait-for-april-25-2026-with-not-my-job-guest-father-james-martin?showDate=2026-04-25) (or published on their [podcast feed](https://feeds.npr.org/344098539/podcast.xml)) the weekend of April 25th.
+
+I did get a nice birthday message from Tom Papa and the show during the credits, but note that the audio segments available on NPR.org do not include the credits.
 
 <div class="row">
     <div class="col col-4 offset-1">
