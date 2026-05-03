@@ -112,7 +112,7 @@ This past weekend, I sold my 2017 Audi A4 allroad and replaced it with a 2026 Su
 
 The reason why I chose to not get an Audi e-tron EV I'm no longer a fan of their design decisions, both exterior and interior, of their current line-up. Plus, the Q4 e-tron isn't a very good bargain given its somewhat lackluster interior quality and overall efficiency. The both the A6 and Q6 e-tron have better efficiency, but both are well outside of my budget.
 
-When pricing for the Subaru Trailseeker was announced, I was pretty shocked that it was around a thousand more than the smaller platform mate, the Solterra. Given the wagon-esque proportions, estimated 272 mile range with the top trim, and almost all of features and creature comforts that I need, it was an easy decision for me.
+When pricing for the Subaru Trailseeker was announced, I was pretty shocked that it was around a thousand more than the smaller platform mate, the Solterra. Given the wagon-esque proportions, estimated 274 mile range with the top trim, and almost all of features and creature comforts that I need, it was an easy decision for me.
 
 I'll collect my thoughts into a blog post once it I reach the 3,000 mile (approximately 4830 kilometer) mark.
 
