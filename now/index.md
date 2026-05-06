@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "What I'm Doing Now"
-updated: 2026-03-30 21:10:00 -0800
+updated: 2026-05-05 22:10:00 -0700
 ---
 
 This is my "[now page](https://nownownow.com/about)".
@@ -10,27 +10,16 @@ This is my "[now page](https://nownownow.com/about)".
 
 Living on the west side of the Portland, Oregon metropolitan area.
 
-## What I Had Been Working On?
+## What I Have Been Working On?
 
-The following are stuff that I recently finished working on:
-
-* Decommissioned my personal Pixelfed account
-  * Made a backup of the database and published files
-  * Exported account information, including following and followers
-  * Took a snapshot of the VPS and deleted it
-
-## What Am I Working On?
-
-The following are projects, tasks or hobbies that I am currently working on:
-
-* Starting to migrate repositories from GitHub to [Codeberg](https://codeberg.org/qlp)
-  * I used the Git migration tool that Codeberg provides via [Forgejo](https://forgejo.org/) with a GitHub personal access token (PAT) to include pull requests, issues and releases
-  * For the repositories that I wanted to keep around for historical purposes, I set the archived flag on both GitHub and Codeberg
-  * For projects that I am actively working on, I use the mirroring function along with a specific GitHub PAT to mirror commits and other changes back to the corresponding GitHub repository
-  * I switched out the GitHub URL with the Codeberg URL for the `origin` remote in `.git/config`
-  * The GitHub repository description and URL, along with the README file, for each repository have been updated to reference Codeberg
-  * I will be migrating the remaining GitHub repositories as time permits
-* Added Scorekeeper column to the Lightning Fill In The Blank series of reports for the [Wait Wait Reports Site](https://reports.wwdt.me/)
+* Migrated my [podcast-bot](https://codeberg.org/qlp/podcast-bot) from a virtual machine in my homelab to a cloud server instance to no longer require my homelab and Internet connection being available
+* Removed the need to run BIND DNS on my cloud server instances to resolve internal hostnames
+  * Created `hosts` file entries due to the small number of hostnames that I need to resolve
+  * Reduced the dependency on my internal DNS server
+  * Reduced DNS lookup latency by using public DNS servers
+* Continuing work on the upcoming version 3.0 of the [Wait Wait Stats Library](https://codeberg.org/qlp/wwdtm)
+  * Published an alpha version of the package to PyPI: <https://pypi.org/project/wwdtm>
+  * Updating the [Wait Wait Stats API](https://api.wwdt.me/) to use the new version
 
 ## What Would I Like To Do Next?
 
@@ -46,6 +35,7 @@ I have a couple of things that I would like to spend time doing or trying out, i
 
 The following is an archive of previous versions of this page:
 
+* [2026-04-10]({{ site_url }}/now/2026-04-10)
 * [2026-03-30]({{ site_url }}/now/2026-03-30)
 * [2026-03-20]({{ site_url }}/now/2026-03-20)
 * [2026-02-15]({{ site_url }}/now/2026-02-15)
