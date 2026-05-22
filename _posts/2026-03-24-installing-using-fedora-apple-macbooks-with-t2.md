@@ -96,7 +96,7 @@ When I first used the screen brightness up and down function keys, there was a d
 
 Before I could see if video hardware decoding and acceleration worked on both MacBooks, I followed the steps to configure the [RPM Fusion repositories](https://rpmfusion.org/Configuration) and installed the [multimedia packages and drivers from RPM Fusion](https://rpmfusion.org/Howto/Multimedia).
 
-For the MacBook Air, I installed `libva-intel-driver` instead of `intel-media-driver` given the vintage of Intel Core processor that's in the MacBook. For the 2019 MacBook Pro with discrete AMD Radeon graphics, I installed the required AMD Mesa drivers by running documented in the RPM Fusion wiki:
+For the MacBook Air, initially I thought that I would need to install `libva-intel-driver` to get hardware H.264 decoding to work given the age of the processor, but I ended up needing to install `intel-media-driver` instead. For the 2019 MacBook Pro with discrete AMD Radeon graphics, I installed the required AMD Mesa drivers by running documented in the RPM Fusion wiki:
 
 ```bash
 sudo dnf swap mesa-va-drivers mesa-va-drivers-freeworld
