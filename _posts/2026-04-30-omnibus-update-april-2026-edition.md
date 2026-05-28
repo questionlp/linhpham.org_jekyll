@@ -2,7 +2,7 @@
 layout: post
 title:  "Omnibus Update: April 2026 Edition"
 date:   2026-04-30 21:00:00 -0700
-tags:   ev waitwait subaru tapings update
+tags:   ev waitwait subaru tapings trailseeker update
 ---
 
 A whole lot of things have been happening in the past month, between Wait Wait-related and personal updates. Instead of spreading it out into multiple blog posts, I decided to kind of do a Lightning round/omnibus blog post briefly touching on each item.
@@ -114,6 +114,6 @@ The reason why I chose to not get an Audi e-tron EV I'm no longer a fan of their
 
 When pricing for the Subaru Trailseeker was announced, I was pretty shocked that it was around a thousand more than the smaller platform mate, the Solterra. Given the wagon-esque proportions, estimated 274 mile range with the top trim, and almost all of features and creature comforts that I need, it was an easy decision for me.
 
-I'll collect my thoughts into a blog post once it I reach the 3,000 mile (approximately 4830 kilometer) mark.
+I'll collect my thoughts into a blog post once it I reach the 3000 mile (approximately 4830 kilometer) mark.
 
 I have uploaded a [couple of photos of the new Trailseeker](https://flickr.com/photos/questionlp/albums/72177720333359073) on Flickr.
