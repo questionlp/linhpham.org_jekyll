@@ -14,5 +14,16 @@
     "build": "npm run all && jekyll build && npx pagefind",
     "serve": "npm run all && jekyll build --future --drafts && npx pagefind --serve",
     "clean": "jekyll clean"
+  },
+  "devDependencies": {
+    "@lavamoat/allow-scripts": "^5.0.2",
+    "@lavamoat/preinstall-always-fail": "^3.0.0"
+  },
+  "lavamoat": {
+    "allowScripts": {
+      "@ibm/plex-mono#1.1.0": false,
+      "@ibm/plex-sans#1.1.0": false,
+      "@lavamoat/preinstall-always-fail#3.0.0": false
+    }
   }
 }
