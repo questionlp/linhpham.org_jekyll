@@ -20,7 +20,7 @@ Another rebuild of the Stats Page came with version 4 with a migration from PHP 
 Version 4 also brought along the Materialize frontend toolkit and version 6 would replace Materialize with the Bootstrap as the frontend toolkit.
 
 * [stats.wwdt.me](https://stats.wwdt.me)
-* [GitHub Repository: questionlp/stats.wwdt.me](https://github.com/questionlp/stats.wwdt.me)
+* [Codeberg Repository: qlp/stats.wwdt.me](https://codeberg.org/qlp/stats.wwdt.me)
 * [Sponsor on GitHub](https://github.com/sponsors/questionlp)
 
 ### Wait Wait Stats Library
@@ -29,7 +29,7 @@ When I was starting to plan out version 4 of the Wait Wait Stats Page, I decided
 
 The result of that was the Wait Wait Stats Library written in Python and uses [NumPy](https://numpy.org/) for calculating panelist minimum, maximum, mean, and median scores, and standard deviation.
 
-* [GitHub Repository: questionlp/wwdtm](https://github.com/questionlp/wwdtm)
+* [Codeberg Repository: qlp/wwdtm](https://codeberg.org/qlp/wwdtm)
 * [Wait Wait Stats Library Documentation: docs.wwdt.me](https://docs.wwdt.me)
 
 #### Wait Wait Stats API
