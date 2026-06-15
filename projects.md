@@ -40,7 +40,7 @@ who were interested in the data that I collected over the years. As I was buildi
 The first version of the Stats API was built using Flask, but it lacked some of the OpenAPI support and helpers that [FastAPI](https://fastapi.tiangolo.com/) included. Version 2 of the API was migrated from Flask to FastAPI.
 
 * [api.wwdt.me](https://api.wwdt.me)
-* [GitHub Repository: questionlp/api.wwdt.me_v2](https://github.com/questionlp/api.wwdt.me_v2)
+* [Codeberg Repository: qlp/api.wwdt.me](https://codeberg.org/qlp/api.wwdt.me)
 
 #### Wait Wait Reports
 
