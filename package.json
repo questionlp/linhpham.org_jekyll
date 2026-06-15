@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "@ibm/plex-mono": "^1.1.0",
+    "@ibm/plex-mono": "^2.5.0",
     "@ibm/plex-sans": "^1.1.0",
     "bootstrap": "^5.3.8",
     "bootstrap-icons": "^1.13.1"
@@ -21,7 +21,7 @@
   },
   "lavamoat": {
     "allowScripts": {
-      "@ibm/plex-mono#1.1.0": false,
+      "@ibm/plex-mono#2.5.0": false,
       "@ibm/plex-sans#1.1.0": false,
       "@lavamoat/preinstall-always-fail#3.0.0": false
     }
