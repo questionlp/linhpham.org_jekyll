@@ -61,7 +61,7 @@ When building out version 4 of the Stats Page, I chose to not include any paneli
 Version 2 of the Graphs Site followed the footsteps of Stats Page version 6 by replacing Materialize with Bootstrap.
 
 * [graphs.wwdt.me](https://graphs.wwdt.me)
-* [GitHub Repository: questionlp/graphs.wwdt.me](https://github.com/questionlp/graphs.wwdt.me)
+* [Codeberg Repository: qlp/graphs.wwdt.me](https://codeberg.org/qlp/graphs.wwdt.me)
 
 ---
 
