@@ -239,8 +239,8 @@ sysctl net.local.stream.sendspace=65536
 In order to set both tunables at startup, edit the `/etc/sysctl.conf` file and add the following lines:
 
 ```text
-sysctl net.local.stream.recvspace=65536
-sysctl net.local.stream.sendspace=65536
+net.local.stream.recvspace=65536
+net.local.stream.sendspace=65536
 ```
 
 At this point, it will want to reboot to get everything up and running. After rebooting, you should be greeted with the GDM graphical login manager. Both GDM and GNOME should automatically use the correct display orientation.

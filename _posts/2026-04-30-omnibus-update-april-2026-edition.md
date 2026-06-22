@@ -114,6 +114,6 @@ The reason why I chose to not get an Audi e-tron EV I'm no longer a fan of their
 
 When pricing for the Subaru Trailseeker was announced, I was pretty shocked that it was around a thousand more than the smaller platform mate, the Solterra. Given the wagon-esque proportions, estimated 274 mile range with the top trim, and almost all of features and creature comforts that I need, it was an easy decision for me.
 
-I'll collect my thoughts into a blog post once it I reach the 3000 mile (approximately 4830 kilometer) mark.
+I'll collect my thoughts into a blog post once it I reach the 3,000 mile (approximately 4,830 kilometer) mark.
 
 I have uploaded a [couple of photos of the new Trailseeker](https://flickr.com/photos/questionlp/albums/72177720333359073) on Flickr.

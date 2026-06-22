@@ -5,7 +5,7 @@ date:   2026-05-27 20:40:00 -0700
 tags:   ev subaru trailseeker
 ---
 
-In my previous blog post, [Omnibus Update: April 2026 Edition]({{ site_url }}{% post_url 2026-04-30-omnibus-update-april-2026-edition %}), I mentioned that I would collect my thoughts on my [2026 Subaru Trailseeker](https://www.subaru.com/vehicles/trailseeker) after 3000 miles (4830 km). I am planning to do that write-up after having the car for 3 months rather than 3000 miles.
+In my previous blog post, [Omnibus Update: April 2026 Edition]({{ site_url }}{% post_url 2026-04-30-omnibus-update-april-2026-edition %}), I mentioned that I would collect my thoughts on my [2026 Subaru Trailseeker](https://www.subaru.com/vehicles/trailseeker) after 3,000 miles (4,830 km). I am planning to do that write-up in about a month's time.
 
 Having said that, I took the first day trip from Portland, Oregon to the [Mima Mounds Natural Area Preserve](https://dnr.wa.gov/natural-areas/natural-area-preserves/mima-mounds-natural-area-preserve) near Littlerock, Washington in the Trailseeker on Tuesday and wanted to document the DC fast charging experience there and back.
 
