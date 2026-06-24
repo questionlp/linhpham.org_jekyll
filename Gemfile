@@ -42,3 +42,4 @@ gem "google-protobuf", "~> 4.32.1"
 
 gem "json", "~> 2.17"
 gem "addressable", "~> 2.9.0"
+gem "concurrent-ruby", "~> 1.3.7"
