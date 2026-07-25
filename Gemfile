@@ -29,7 +29,7 @@ gem "kramdown-parser-gfm" if ENV["JEKYLL_VERSION"] == "~> 3.9"
 gem "webrick", "~> 1.9"
 
 # Add gems that will no longer be included in Ruby >= 3.4.0
-gem "bigdecimal", "~> 3.1"
+gem "bigdecimal", "~> 4.0"
 gem "safe_yaml", "~> 1.0"
 gem "base64", "~> 0.2"
 gem "csv", "~> 3.3"
@@ -38,7 +38,7 @@ gem "csv", "~> 3.3"
 gem "logger", "~> 1.6"
 gem "ostruct", "~> 0.6"
 
-gem "google-protobuf", "~> 4.32.1"
+gem "google-protobuf", "~> 4.35"
 
 gem "json", "~> 2.17"
 gem "addressable", "~> 2.9.0"
