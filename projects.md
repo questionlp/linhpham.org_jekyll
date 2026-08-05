@@ -63,6 +63,18 @@ Version 2 of the Graphs Site followed the footsteps of Stats Page version 6 by r
 * [graphs.wwdt.me](https://graphs.wwdt.me)
 * [Codeberg Repository: qlp/graphs.wwdt.me](https://codeberg.org/qlp/graphs.wwdt.me)
 
+#### Wait Wait Playing Cards Gallery
+
+In November 2024, I got my hands on two separate packs of Wait Wait... Don't Tell Me! playing cards and had them sitting near my desk ever since. Fast forward to July 2026 when I decided to scan and catalog each of the cards and created a gallery using Flask and Bootstrap.
+
+* [cards.wwdt.me](https://cards.wwdt.me)
+* [Codeberg Repository: qlp/cards.wwdt.me](https://codeberg.org/qlp/cards.wwdt.me)
+
+In addition to displaying scans of the cards in the gallery, I have also uploaded full-resolution scans of the cards to both the Internet Archive and to Flickr under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+
+* Flickr: [Wait Wait Don't Tell Me Playing Cards](https://flickr.com/photos/questionlp/albums/72177720334840763)
+* Internet Archive: [Wait Wait Don't Tell Me Playing Cards](https://archive.org/details/wait-wait-dont-tell-me-playing-cards)
+
 ---
 
 ### Marsupial Gurgle
