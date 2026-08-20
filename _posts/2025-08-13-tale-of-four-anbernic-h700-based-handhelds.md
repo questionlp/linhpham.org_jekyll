@@ -246,4 +246,4 @@ As I am writing this post, most of the devices are going for 50 or 60 USD before
 
 On the flip side, it is an easier and more convenient option than finding and modding Sony PSP or PS Vita handhelds, or even Nintendo DS, DSi or 3DS handhelds, to emulate the same systems that the RGXX can play reliably.
 
-If you are still interested in picking up one of the Anberic RGXX handhelds, checkout Retro Game Corps' [Anbernic RG35XX Family Starter Guide](https://retrogamecorps.com/2024/06/07/anbernic-rg35xx-family-starter-guide/) and their [videos](https://www.youtube.com/@RetroGameCorps/search?query=rgxx) on YouTube.
+If you are still interested in picking up one of the Anberic RGXX handhelds, check out Retro Game Corps' [Anbernic RG35XX Family Starter Guide](https://retrogamecorps.com/2024/06/07/anbernic-rg35xx-family-starter-guide/) and their [videos](https://www.youtube.com/@RetroGameCorps/search?query=rgxx) on YouTube.
