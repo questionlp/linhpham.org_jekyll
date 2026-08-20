@@ -40,6 +40,6 @@ gem "ostruct", "~> 0.6"
 
 gem "google-protobuf", "~> 4.35"
 
-gem "json", "~> 2.17"
+gem "json", "~> 2.21.2"
 gem "addressable", "~> 2.9.0"
 gem "concurrent-ruby", "~> 1.3.7"
