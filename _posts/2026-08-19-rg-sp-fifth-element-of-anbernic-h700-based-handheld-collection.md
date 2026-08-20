@@ -20,7 +20,7 @@ A year ago, I wrote about the [four Anbernic handhelds built around an Allwinner
     </div>
 </div>
 
-When I heard that Anbernic was going to announce (yet) another handheld based around the Allwinner H700 and heavily inspired by the Game Boy Advance SP, I kind of rolled my eyes. The RG34XX SP that was released after the RG35XX SP was a huge miss for me for a number of reasons. So, when I saw that the new handheld, the [RG SP (or RGSP)](https://anbernic.com/products/rg-sp), was a slimmer version of the RG35XX SP and had a screen with a usable 3:2 aspect ratio, I ended up placing an order for one in Pearl Pink.
+When I heard that Anbernic was going to announce (yet) another handheld based around the Allwinner H700 and heavily inspired by the Game Boy Advance SP, I kind of rolled my eyes. The RG34XX SP that was released after the RG35XX SP was a huge miss for me for a number of reasons. So, when I saw that the new handheld, the [RG SP (or RGSP)](https://anbernic.com/products/rg-sp), was a slimmer version of the RG35XX SP and had a screen with a usable 3:2 aspect ratio, I ended up placing an order for one in Pearl Pink the moment orders opened up for 57.99 USD after early bird discount and before shipping. The version I ordered only came with a 16 GB TF/microSD card with the stock Anbernic firmware.
 
 Why Pearl Pink? I didn't want one in Platinum (silver) or Graphite (dark gray), and I have been on a bit of a lavender, pink, purple, and violet kick lately.
 
@@ -88,6 +88,8 @@ Since the RG SP has the same Allwinner H700 system on a chip as my other Anberni
 The audio coming out of the single speaker a bit of a mixed bag, maybe being just slightly less clear than on the RG35XX SP. Compared to the original speaker in the GBA SP, it isn't quite as harsh of highs (without any audio filtering enabled) but lacks some of the definition in the mids.
 
 Even though the screen is smaller than the RG35XX SP's screen by 0.1 inch (2.54 mm), I can make full use of the usable screen area while running Game Boy Advance games with integer scaling. There are a couple of times where not using integer scaling and using a sharp, bilinear shaders leads to some odd scaling artifacts on the RG35XX SP. The 3:2 screen aspect ratio designed for Game Boy and Game Boy Color games, but the original GBA and GBA SP were less optimal due to their smaller screens.
+
+When playing Game Boy Advance games, the bottom of the RG SP gets warm. Unfortunately, due to the slimmer design of the RG SP, there is no door for the battery and reports are that there isn't a lot of clearance between the system on the chip and the battery on the bottom. It will be interesting to see how it fares long-term.
 
 ### Testing the Controls on the RG SP
 
