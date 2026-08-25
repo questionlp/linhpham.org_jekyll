@@ -12,25 +12,32 @@ Living on the west side of the Portland, Oregon metropolitan area.
 
 ## What I Have Been Working On?
 
-* Continued migrating the authoritative source for my Git repositories from GitHub to Codeberg ([qlp](https://codeberg.org/qlp))
-  * Each of the migrated repositories are configured to mirror changes to the corresponding repositories still hosted on GitHub
-  * I haven't determined how long I will be keeping the copies over on GitHub
-* Installed AlmaLinux 10 on my Microsoft Surface Pro 3 to see how usable the distro is on the old tablet
-  * Since I am currently using GNOME on each of my Fedora-based installs, the Surface Pro 3 also has GNOME as the desktop environment
-* Published version 3.0 of the [Wait Wait Stats Library](https://codeberg.org/qlp/wwdtm)
-  * Updated the [Wait Wait Stats Page](https://stats.wwdt.me/), [Wait Wait Stats API](https://api.wwdt.me/) and [Wait Wait Graphs Site](https://graphs.wwdt.me/) to use the new version
-  * The change also included removing logic to check for panelist decimal scores columns as they are now required for version 3 of the library
-* Turned my spare Steam Deck (LCD version) into a "server" running Fedora Workstation 44
-  * Disabled sleep, suspend, hibernate and hybrid sleep to prevent those stages from being triggered the local desktop session is used
-  * Enabled Remote Desktop via RDP so that I can connect to it using [Remmina](https://remmina.org/) from my Linux laptops
+* Setting up both an [AYN Thor](https://www.ayntec.com/products/ayn-thor) and a [Retroid Pocket Nova](https://www.goretroid.com/collections/frontpage/products/retroid-pocket-nova-handheld) handheld with [ES-DE](https://es-de.org/) and [Obtainium](https://obtainium.imranr.dev/)
+  * I am using [RetroArch](https://www.retroarch.com/) to play 8-bit and 16-bit consoles (and the random 3DO games)
+    * For home console and arcade cores, I am using the `crt/crt-gdv-mini-ultra-trinitron.slangp` Slang shaders with curvature for both X and Y set to `0`
+    * For handhand console cores, I am using the corresponding Game Boy, Game Boy Color and Game Boy Advance LCD Slang shaders or `handhelds/lcd3x.slangp` for everything else
+  * For the other consoles, I installed the following emulators using Obtainium:
+    * Nintendo 64: M64Plus FZ Pro (via Google Play Store)
+    * Nintendo GameCube and Wii: Dolphin
+    * Nintendo DS: WatermelonDS
+    * Nintendo 3DS: Azahar
+    * Sega Dreamcast: Flycast
+    * Sony PlayStation: DuckStation
+    * Sony PlayStation 2: ARMSX2 with a patched version of NetherSX2 as a backup
+    * Sony PlayStation Portable: PPSSPP
+  * For the Retroid Pocket Nova, I limit the consoles and games that are designed or optimized for non-widescreen displays since the handheld has a 4:3 aspect ratio screen
+* Setting up, playing on, and writing a blost post on the [Anbernic RG SP]({{ site_url }}{% post_url 2026-08-19-rg-sp-fifth-element-of-anbernic-h700-based-handheld-collection %})
+
+## What Am I Working On Now?
+
+* Updating the [Wait Wait Graphs Site](https://graphs.wwdt.me/) web application to include the recently released [Plotly.js](https://plotly.com/javascript/) version 4.0.0
 
 ## What Would I Like To Do Next?
 
 I have a couple of things that I would like to spend time doing or trying out, in no particular order:
 
-* Give Fedora Silverblue a full try on my spare Lenovo ThinkPad T14 Gen 2 AMD to see if I could live the Atomic Linux lifestyle
 * Replace the two Proxmox hosts running at home with something newer and more power efficient
-* Researching ORMs (object relational mappers) to use for the next major versions of the Wait Wait Stats Project applications and libraries
+* Researching if using ORMs (object relational mappers) for the next major versions of the Wait Wait Stats Project applications and libraries makes sense
 * Researching the process to potentially migrate the Wait Wait Stats Project from MySQL or MariaDB to PostgreSQL
 * Stand up a private Forgejo instance as an option to migrate private repositories hosted on GitHub
 
@@ -38,6 +45,7 @@ I have a couple of things that I would like to spend time doing or trying out, i
 
 The following is an archive of previous versions of this page:
 
+* [2026-06-26]({{ site_url }}/now/2026-06-26)
 * [2026-05-05]({{ site_url }}/now/2026-05-05)
 * [2026-04-10]({{ site_url }}/now/2026-04-10)
 * [2026-03-30]({{ site_url }}/now/2026-03-30)
