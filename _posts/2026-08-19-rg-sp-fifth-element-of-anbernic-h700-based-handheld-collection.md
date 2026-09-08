@@ -5,6 +5,12 @@ date:   2026-08-19 22:00:00 -0700
 tags:   video-games anbernic retroarch emulation rgxx h700 rgsp rg-sp
 ---
 
+<div class="alert alert-info">
+    <p class="mb-0">
+        For those interested in using ROCKNIX on the Anbernic RG SP, the H700 DDR3 build of version <a target="_blank">20260901</a> should be used rather than the H700 DDR4 build.
+    </p>
+</div>
+
 A year ago, I wrote about the [four Anbernic handhelds built around an Allwinner H700]({{ site_url }}{% post_url 2025-08-13-tale-of-four-anbernic-h700-based-handhelds%}) system on a chip I had purchased over a period of time. Two of those were heavily-inspired by two of my favorite Nintendo handheld consoles: the original Nintendo Game Boy Advance (RG34XX H) and the Game Boy Advance SP (RG35XX SP). Even with the firm and clacky buttons, I brought the RG35XX SP with me on trips due to the flip format factor protecting the screen when the device was not in use.
 
 <div class="row">
