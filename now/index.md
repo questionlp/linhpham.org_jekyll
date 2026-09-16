@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "What I'm Doing Now"
-updated: 2026-06-26 13:10:00 -0700
+updated: 2026-08-24 13:10:00 -0700
 ---
 
 This is my "[now page](https://nownownow.com/about)".
