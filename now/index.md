@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "What I'm Doing Now"
-updated: 2026-09-15 17:10:00 -0700
+updated: 2026-09-16 10:10:00 -0700
 ---
 
 This is my "[now page](https://nownownow.com/about)".
@@ -12,7 +12,6 @@ Living on the west side of the Portland, Oregon metropolitan area.
 
 ## What Am I Working On Now?
 
-* Migrating from using KNULLI to Rocknix on my Anbernic H700-based devices
 * Setting up Syncthing to synchronize battery save files and save states between all of my devices
   * I am using Syncthing-Fork on Android due to the official Syncthing version no longer being supported
   * I have two sets of save states, one for the Anbernic H700-based devices and one for the Android-based devices due to possible incompatibility issues
