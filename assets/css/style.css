@@ -12760,7 +12760,7 @@ footer .copyright a:link,
 footer .copyright a:hover,
 footer .copyright a:visited {
   font-weight: 500;
-  text-decoration: underline dotted;
+  border-bottom: 1px dotted;
 }
 
 [data-bs-theme=dark] main .card.card-link-list .card-body {
