@@ -1,3 +1,7 @@
+# Draft archive
+.drafts-archive/*
+!.drafts-archive/.gitkeep
+
 Gemfile.lock.*
 
 ## Jekyll
