@@ -25,6 +25,7 @@ gem "wdm", "~> 0.2", :platforms => [:windows]
 gem "http_parser.rb", "~> 0.8.0", :platforms => [:jruby]
 
 # Additional required gems
+gem "kramdown", "~> 2.6.1"
 gem "kramdown-parser-gfm" if ENV["JEKYLL_VERSION"] == "~> 3.9"
 gem "webrick", "~> 1.9"
 
@@ -43,3 +44,4 @@ gem "google-protobuf", "~> 4.35"
 gem "json", "~> 2.21.2"
 gem "addressable", "~> 2.9.0"
 gem "concurrent-ruby", "~> 1.3.7"
+gem "sass-embedded", "~>1.108.2"
